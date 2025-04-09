@@ -4856,5 +4856,145 @@
       "now"
     ],
     "doc_url": "https://docs.python.org/3/library/time.html#time.localtime"
+  },
+  {
+    "name": "time",
+    "category": "time",
+    "description": "Η time επιστρεφει την τρεχουσα χρονικη στιγμη ως αριθμο δευτερολεπτων απο την 1 Ιανουαριου 1970 (epoch). Ειναι χρησιμη για μετρηση χρονου και χρονικων αποστασεων.",
+    "example": "import time\nprint(time.time())",
+    "keywords": [
+      "time",
+      "current",
+      "epoch",
+      "seconds",
+      "timestamp"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.time"
+  },
+  {
+    "name": "sleep",
+    "category": "time",
+    "description": "Η sleep σταματα την εκτελεση του προγραμματος για ορισμενο αριθμο δευτερολεπτων. Ειναι χρησιμη για καθυστερησεις, χρονικα διαστηματα ή animation.",
+    "example": "import time\ntime.sleep(2)",
+    "keywords": [
+      "sleep",
+      "pause",
+      "delay",
+      "wait",
+      "time"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.sleep"
+  },
+  {
+    "name": "ctime",
+    "category": "time",
+    "description": "Η ctime μετατρεπει εναν αριθμο χρονου (timestamp) σε αναγνωσιμη ημερομηνια και ωρα με τη μορφη string.",
+    "example": "import time\nprint(time.ctime())",
+    "keywords": [
+      "ctime",
+      "string",
+      "date",
+      "time",
+      "convert"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.ctime"
+  },
+  {
+    "name": "gmtime",
+    "category": "time",
+    "description": "Η gmtime επιστρεφει την τρεχουσα χρονικη στιγμη σε μορφη struct_time με βαση την ωρα GMT (UTC).",
+    "example": "import time\nprint(time.gmtime())",
+    "keywords": [
+      "gmtime",
+      "utc",
+      "time",
+      "struct_time",
+      "gmt"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.gmtime"
+  },
+  {
+    "name": "localtime",
+    "category": "time",
+    "description": "Η localtime επιστρεφει την τρεχουσα χρονικη στιγμη σε μορφη struct_time με βαση την τοπικη ωρα.",
+    "example": "import time\nprint(time.localtime())",
+    "keywords": [
+      "localtime",
+      "local",
+      "time",
+      "timezone",
+      "struct_time"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.localtime"
+  },
+  {
+    "name": "mktime",
+    "category": "time",
+    "description": "Η mktime παιρνει struct_time και επιστρεφει το αντιστοιχο timestamp (δευτερολεπτα απο epoch).",
+    "example": "import time\nprint(time.mktime(time.localtime()))",
+    "keywords": [
+      "mktime",
+      "timestamp",
+      "struct_time",
+      "convert",
+      "epoch"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.mktime"
+  },
+  {
+    "name": "strftime",
+    "category": "time",
+    "description": "Η strftime μετατρεπει μια δομη χρονου σε string βασει συγκεκριμενης μορφης φορμα (format).",
+    "example": "import time\nprint(time.strftime('%Y-%m-%d %H:%M:%S'))",
+    "keywords": [
+      "strftime",
+      "format",
+      "string",
+      "time",
+      "convert"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.strftime"
+  },
+  {
+    "name": "strptime",
+    "category": "time",
+    "description": "Η strptime μετατρεπει string σε struct_time βασει της μορφης που του δινεις.",
+    "example": "import time\nprint(time.strptime('2024-01-01', '%Y-%m-%d'))",
+    "keywords": [
+      "strptime",
+      "parse",
+      "string",
+      "format",
+      "convert"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.strptime"
+  },
+  {
+    "name": "perf_counter",
+    "category": "time",
+    "description": "Η perf_counter δινει τον πιο ακριβη μετρητη χρονου, καταλληλη για benchmarking και μετρηση μικρων διαστηματων.",
+    "example": "import time\nstart = time.perf_counter()\ntime.sleep(1)\nprint(time.perf_counter() - start)",
+    "keywords": [
+      "perf_counter",
+      "benchmark",
+      "timer",
+      "measure",
+      "accurate"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.perf_counter"
+  },
+  {
+    "name": "process_time",
+    "category": "time",
+    "description": "Η process_time μετραει μονο τον χρονο που αφιερωσε η CPU στο προγραμμα (οχι υπνος ή I/O).",
+    "example": "import time\nstart = time.process_time()\nfor i in range(1000000): pass\nprint(time.process_time() - start)",
+    "keywords": [
+      "process_time",
+      "cpu",
+      "execution",
+      "measure",
+      "time"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.process_time"
   }
 ]
