@@ -3332,97 +3332,6 @@
     "doc_url": "https://docs.python.org/3/tutorial/modules.html"
   },
   {
-    "name": "tkinter",
-    "category": "modules",
-    "description": "Η tkinter είναι η ενσωματωμένη βιβλιοθήκη της Python για τη δημιουργία GUI εφαρμογών. Παρέχει widgets όπως κουμπιά, πλαίσια κειμένου, ετικέτες και άλλα.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
-    "keywords": [
-      "tkinter",
-      "gui",
-      "widgets",
-      "window"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html"
-  },
-  {
-    "name": "Button",
-    "category": "tkinter",
-    "description": "Το widget Button δημιουργεί ένα κουμπί που μπορεί να πατηθεί για να εκτελέσει μια ενέργεια.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nbutton = tk.Button(root, text='Click Me', command=lambda: print('Clicked!'))\nbutton.pack()\nroot.mainloop()",
-    "keywords": [
-      "button",
-      "widget",
-      "tkinter",
-      "click"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#button"
-  },
-  {
-    "name": "Label",
-    "category": "tkinter",
-    "description": "Το widget Label χρησιμοποιείται για την εμφάνιση κειμένου ή εικόνων σε ένα παράθυρο.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nlabel = tk.Label(root, text='Hello, World!')\nlabel.pack()\nroot.mainloop()",
-    "keywords": [
-      "label",
-      "widget",
-      "tkinter",
-      "text"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#label"
-  },
-  {
-    "name": "Entry",
-    "category": "tkinter",
-    "description": "Το widget Entry δημιουργεί ένα πεδίο εισαγωγής κειμένου.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nentry = tk.Entry(root)\nentry.pack()\nroot.mainloop()",
-    "keywords": [
-      "entry",
-      "input",
-      "widget",
-      "tkinter"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#entry"
-  },
-  {
-    "name": "Canvas",
-    "category": "tkinter",
-    "description": "Το widget Canvas χρησιμοποιείται για τη σχεδίαση σχημάτων, γραμμών και εικόνων.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\ncanvas = tk.Canvas(root, width=200, height=100)\ncanvas.create_line(0, 0, 200, 100)\ncanvas.pack()\nroot.mainloop()",
-    "keywords": [
-      "canvas",
-      "draw",
-      "widget",
-      "tkinter"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#canvas"
-  },
-  {
-    "name": "Tk",
-    "category": "tkinter",
-    "description": "Η κλάση Tk δημιουργεί το κύριο παράθυρο της εφαρμογής.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
-    "keywords": [
-      "tk",
-      "window",
-      "tkinter",
-      "main"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#tk"
-  },
-  {
-    "name": "mainloop",
-    "category": "tkinter",
-    "description": "Η μέθοδος mainloop ξεκινά τον βρόχο εκδηλώσεων της εφαρμογής tkinter.",
-    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
-    "keywords": [
-      "mainloop",
-      "event",
-      "tkinter",
-      "loop"
-    ],
-    "doc_url": "https://docs.python.org/3/library/tkinter.html#mainloop"
-  },
-  {
     "name": "acos",
     "category": "math",
     "description": "Η acos ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
@@ -4191,5 +4100,691 @@
       "function"
     ],
     "doc_url": "https://docs.python.org/3/library/math.html#ulp"
+  },
+  {
+    "name": "BaseWidget",
+    "category": "tkinter",
+    "description": "Η BaseWidget ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.BaseWidget(...)",
+    "keywords": [
+      "BaseWidget",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#BaseWidget"
+  },
+  {
+    "name": "BitmapImage",
+    "category": "tkinter",
+    "description": "Η BitmapImage ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.BitmapImage(...)",
+    "keywords": [
+      "BitmapImage",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#BitmapImage"
+  },
+  {
+    "name": "BooleanVar",
+    "category": "tkinter",
+    "description": "Η BooleanVar ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.BooleanVar(...)",
+    "keywords": [
+      "BooleanVar",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#BooleanVar"
+  },
+  {
+    "name": "Button",
+    "category": "tkinter",
+    "description": "Η Button ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Button(...)",
+    "keywords": [
+      "Button",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Button"
+  },
+  {
+    "name": "CallWrapper",
+    "category": "tkinter",
+    "description": "Η CallWrapper ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.CallWrapper(...)",
+    "keywords": [
+      "CallWrapper",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#CallWrapper"
+  },
+  {
+    "name": "Canvas",
+    "category": "tkinter",
+    "description": "Η Canvas ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Canvas(...)",
+    "keywords": [
+      "Canvas",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Canvas"
+  },
+  {
+    "name": "Checkbutton",
+    "category": "tkinter",
+    "description": "Η Checkbutton ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Checkbutton(...)",
+    "keywords": [
+      "Checkbutton",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Checkbutton"
+  },
+  {
+    "name": "DoubleVar",
+    "category": "tkinter",
+    "description": "Η DoubleVar ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.DoubleVar(...)",
+    "keywords": [
+      "DoubleVar",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#DoubleVar"
+  },
+  {
+    "name": "Entry",
+    "category": "tkinter",
+    "description": "Η Entry ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Entry(...)",
+    "keywords": [
+      "Entry",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Entry"
+  },
+  {
+    "name": "Event",
+    "category": "tkinter",
+    "description": "Η Event ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Event(...)",
+    "keywords": [
+      "Event",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Event"
+  },
+  {
+    "name": "EventType",
+    "category": "tkinter",
+    "description": "Η EventType ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.EventType(...)",
+    "keywords": [
+      "EventType",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#EventType"
+  },
+  {
+    "name": "Frame",
+    "category": "tkinter",
+    "description": "Η Frame ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Frame(...)",
+    "keywords": [
+      "Frame",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Frame"
+  },
+  {
+    "name": "Grid",
+    "category": "tkinter",
+    "description": "Η Grid ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Grid(...)",
+    "keywords": [
+      "Grid",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Grid"
+  },
+  {
+    "name": "Image",
+    "category": "tkinter",
+    "description": "Η Image ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Image(...)",
+    "keywords": [
+      "Image",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Image"
+  },
+  {
+    "name": "IntVar",
+    "category": "tkinter",
+    "description": "Η IntVar ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.IntVar(...)",
+    "keywords": [
+      "IntVar",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#IntVar"
+  },
+  {
+    "name": "Label",
+    "category": "tkinter",
+    "description": "Η Label ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Label(...)",
+    "keywords": [
+      "Label",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Label"
+  },
+  {
+    "name": "LabelFrame",
+    "category": "tkinter",
+    "description": "Η LabelFrame ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.LabelFrame(...)",
+    "keywords": [
+      "LabelFrame",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#LabelFrame"
+  },
+  {
+    "name": "Listbox",
+    "category": "tkinter",
+    "description": "Η Listbox ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Listbox(...)",
+    "keywords": [
+      "Listbox",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Listbox"
+  },
+  {
+    "name": "Menu",
+    "category": "tkinter",
+    "description": "Η Menu ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Menu(...)",
+    "keywords": [
+      "Menu",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Menu"
+  },
+  {
+    "name": "Menubutton",
+    "category": "tkinter",
+    "description": "Η Menubutton ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Menubutton(...)",
+    "keywords": [
+      "Menubutton",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Menubutton"
+  },
+  {
+    "name": "Message",
+    "category": "tkinter",
+    "description": "Η Message ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Message(...)",
+    "keywords": [
+      "Message",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Message"
+  },
+  {
+    "name": "Misc",
+    "category": "tkinter",
+    "description": "Η Misc ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Misc(...)",
+    "keywords": [
+      "Misc",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Misc"
+  },
+  {
+    "name": "NoDefaultRoot",
+    "category": "tkinter",
+    "description": "Η NoDefaultRoot ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.NoDefaultRoot(...))",
+    "keywords": [
+      "NoDefaultRoot",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#NoDefaultRoot"
+  },
+  {
+    "name": "OptionMenu",
+    "category": "tkinter",
+    "description": "Η OptionMenu ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.OptionMenu(...)",
+    "keywords": [
+      "OptionMenu",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#OptionMenu"
+  },
+  {
+    "name": "Pack",
+    "category": "tkinter",
+    "description": "Η Pack ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Pack(...)",
+    "keywords": [
+      "Pack",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Pack"
+  },
+  {
+    "name": "PanedWindow",
+    "category": "tkinter",
+    "description": "Η PanedWindow ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.PanedWindow(...)",
+    "keywords": [
+      "PanedWindow",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#PanedWindow"
+  },
+  {
+    "name": "PhotoImage",
+    "category": "tkinter",
+    "description": "Η PhotoImage ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.PhotoImage(...)",
+    "keywords": [
+      "PhotoImage",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#PhotoImage"
+  },
+  {
+    "name": "Place",
+    "category": "tkinter",
+    "description": "Η Place ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Place(...)",
+    "keywords": [
+      "Place",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Place"
+  },
+  {
+    "name": "Radiobutton",
+    "category": "tkinter",
+    "description": "Η Radiobutton ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Radiobutton(...)",
+    "keywords": [
+      "Radiobutton",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Radiobutton"
+  },
+  {
+    "name": "Scale",
+    "category": "tkinter",
+    "description": "Η Scale ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Scale(...)",
+    "keywords": [
+      "Scale",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Scale"
+  },
+  {
+    "name": "Scrollbar",
+    "category": "tkinter",
+    "description": "Η Scrollbar ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Scrollbar(...)",
+    "keywords": [
+      "Scrollbar",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Scrollbar"
+  },
+  {
+    "name": "Spinbox",
+    "category": "tkinter",
+    "description": "Η Spinbox ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Spinbox(...)",
+    "keywords": [
+      "Spinbox",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Spinbox"
+  },
+  {
+    "name": "StringVar",
+    "category": "tkinter",
+    "description": "Η StringVar ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.StringVar(...)",
+    "keywords": [
+      "StringVar",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#StringVar"
+  },
+  {
+    "name": "Tcl",
+    "category": "tkinter",
+    "description": "Η Tcl ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.Tcl(...))",
+    "keywords": [
+      "Tcl",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Tcl"
+  },
+  {
+    "name": "TclError",
+    "category": "tkinter",
+    "description": "Η TclError ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.TclError(...)",
+    "keywords": [
+      "TclError",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#TclError"
+  },
+  {
+    "name": "Text",
+    "category": "tkinter",
+    "description": "Η Text ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Text(...)",
+    "keywords": [
+      "Text",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Text"
+  },
+  {
+    "name": "Tk",
+    "category": "tkinter",
+    "description": "Η Tk ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Tk(...)",
+    "keywords": [
+      "Tk",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Tk"
+  },
+  {
+    "name": "Toplevel",
+    "category": "tkinter",
+    "description": "Η Toplevel ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Toplevel(...)",
+    "keywords": [
+      "Toplevel",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Toplevel"
+  },
+  {
+    "name": "Variable",
+    "category": "tkinter",
+    "description": "Η Variable ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Variable(...)",
+    "keywords": [
+      "Variable",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Variable"
+  },
+  {
+    "name": "Widget",
+    "category": "tkinter",
+    "description": "Η Widget ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Widget(...)",
+    "keywords": [
+      "Widget",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Widget"
+  },
+  {
+    "name": "Wm",
+    "category": "tkinter",
+    "description": "Η Wm ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.Wm(...)",
+    "keywords": [
+      "Wm",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#Wm"
+  },
+  {
+    "name": "XView",
+    "category": "tkinter",
+    "description": "Η XView ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.XView(...)",
+    "keywords": [
+      "XView",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#XView"
+  },
+  {
+    "name": "YView",
+    "category": "tkinter",
+    "description": "Η YView ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.YView(...)",
+    "keywords": [
+      "YView",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#YView"
+  },
+  {
+    "name": "getboolean",
+    "category": "tkinter",
+    "description": "Η getboolean ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.getboolean(...))",
+    "keywords": [
+      "getboolean",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#getboolean"
+  },
+  {
+    "name": "getdouble",
+    "category": "tkinter",
+    "description": "Η getdouble ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.getdouble(...)",
+    "keywords": [
+      "getdouble",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#getdouble"
+  },
+  {
+    "name": "getint",
+    "category": "tkinter",
+    "description": "Η getint ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nwidget = tkinter.getint(...)",
+    "keywords": [
+      "getint",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#getint"
+  },
+  {
+    "name": "image_names",
+    "category": "tkinter",
+    "description": "Η image_names ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.image_names(...))",
+    "keywords": [
+      "image_names",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#image_names"
+  },
+  {
+    "name": "image_types",
+    "category": "tkinter",
+    "description": "Η image_types ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.image_types(...))",
+    "keywords": [
+      "image_types",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#image_types"
+  },
+  {
+    "name": "mainloop",
+    "category": "tkinter",
+    "description": "Η mainloop ειναι μια σημαντικη συναρτηση ή κλαση απο το tkinter, το οποιο ειναι το βασικο εργαλειο για δημιουργια γραφικων παραθυρων σε Python. Με αυτη μπορουμε να φτιαξουμε παραθυρα, κουμπια, πλαισια και αλλα γραφικα στοιχεια με απλο τροπο. Ειναι ιδανικο για αρχαριους που θελουν να μαθουν GUI προγραμματισμο.",
+    "example": "import tkinter\nprint(tkinter.mainloop(...))",
+    "keywords": [
+      "mainloop",
+      "tkinter",
+      "gui",
+      "window",
+      "widget"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#mainloop"
   }
 ]
