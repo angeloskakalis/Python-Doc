@@ -3421,5 +3421,775 @@
       "loop"
     ],
     "doc_url": "https://docs.python.org/3/library/tkinter.html#mainloop"
+  },
+  {
+    "name": "acos",
+    "category": "math",
+    "description": "Η acos ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.acos(...))",
+    "keywords": [
+      "acos",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#acos"
+  },
+  {
+    "name": "acosh",
+    "category": "math",
+    "description": "Η acosh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.acosh(...))",
+    "keywords": [
+      "acosh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#acosh"
+  },
+  {
+    "name": "asin",
+    "category": "math",
+    "description": "Η asin ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.asin(...))",
+    "keywords": [
+      "asin",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#asin"
+  },
+  {
+    "name": "asinh",
+    "category": "math",
+    "description": "Η asinh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.asinh(...))",
+    "keywords": [
+      "asinh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#asinh"
+  },
+  {
+    "name": "atan",
+    "category": "math",
+    "description": "Η atan ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.atan(...))",
+    "keywords": [
+      "atan",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#atan"
+  },
+  {
+    "name": "atan2",
+    "category": "math",
+    "description": "Η atan2 ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.atan2(...))",
+    "keywords": [
+      "atan2",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#atan2"
+  },
+  {
+    "name": "atanh",
+    "category": "math",
+    "description": "Η atanh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.atanh(...))",
+    "keywords": [
+      "atanh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#atanh"
+  },
+  {
+    "name": "cbrt",
+    "category": "math",
+    "description": "Η cbrt ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.cbrt(...))",
+    "keywords": [
+      "cbrt",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#cbrt"
+  },
+  {
+    "name": "ceil",
+    "category": "math",
+    "description": "Η ceil ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.ceil(...))",
+    "keywords": [
+      "ceil",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#ceil"
+  },
+  {
+    "name": "comb",
+    "category": "math",
+    "description": "Η comb ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.comb(...))",
+    "keywords": [
+      "comb",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#comb"
+  },
+  {
+    "name": "copysign",
+    "category": "math",
+    "description": "Η copysign ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.copysign(...))",
+    "keywords": [
+      "copysign",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#copysign"
+  },
+  {
+    "name": "cos",
+    "category": "math",
+    "description": "Η cos ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.cos(...))",
+    "keywords": [
+      "cos",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#cos"
+  },
+  {
+    "name": "cosh",
+    "category": "math",
+    "description": "Η cosh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.cosh(...))",
+    "keywords": [
+      "cosh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#cosh"
+  },
+  {
+    "name": "degrees",
+    "category": "math",
+    "description": "Η degrees ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.degrees(...))",
+    "keywords": [
+      "degrees",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#degrees"
+  },
+  {
+    "name": "dist",
+    "category": "math",
+    "description": "Η dist ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.dist(...))",
+    "keywords": [
+      "dist",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#dist"
+  },
+  {
+    "name": "erf",
+    "category": "math",
+    "description": "Η erf ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.erf(...))",
+    "keywords": [
+      "erf",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#erf"
+  },
+  {
+    "name": "erfc",
+    "category": "math",
+    "description": "Η erfc ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.erfc(...))",
+    "keywords": [
+      "erfc",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#erfc"
+  },
+  {
+    "name": "exp",
+    "category": "math",
+    "description": "Η exp ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.exp(...))",
+    "keywords": [
+      "exp",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#exp"
+  },
+  {
+    "name": "exp2",
+    "category": "math",
+    "description": "Η exp2 ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.exp2(...))",
+    "keywords": [
+      "exp2",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#exp2"
+  },
+  {
+    "name": "expm1",
+    "category": "math",
+    "description": "Η expm1 ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.expm1(...))",
+    "keywords": [
+      "expm1",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#expm1"
+  },
+  {
+    "name": "fabs",
+    "category": "math",
+    "description": "Η fabs ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.fabs(...))",
+    "keywords": [
+      "fabs",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#fabs"
+  },
+  {
+    "name": "factorial",
+    "category": "math",
+    "description": "Η factorial ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.factorial(...))",
+    "keywords": [
+      "factorial",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#factorial"
+  },
+  {
+    "name": "floor",
+    "category": "math",
+    "description": "Η floor ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.floor(...))",
+    "keywords": [
+      "floor",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#floor"
+  },
+  {
+    "name": "fmod",
+    "category": "math",
+    "description": "Η fmod ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.fmod(...))",
+    "keywords": [
+      "fmod",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#fmod"
+  },
+  {
+    "name": "frexp",
+    "category": "math",
+    "description": "Η frexp ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.frexp(...))",
+    "keywords": [
+      "frexp",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#frexp"
+  },
+  {
+    "name": "fsum",
+    "category": "math",
+    "description": "Η fsum ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.fsum(...))",
+    "keywords": [
+      "fsum",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#fsum"
+  },
+  {
+    "name": "gamma",
+    "category": "math",
+    "description": "Η gamma ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.gamma(...))",
+    "keywords": [
+      "gamma",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#gamma"
+  },
+  {
+    "name": "gcd",
+    "category": "math",
+    "description": "Η gcd ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.gcd(...))",
+    "keywords": [
+      "gcd",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#gcd"
+  },
+  {
+    "name": "hypot",
+    "category": "math",
+    "description": "Η hypot ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.hypot(...))",
+    "keywords": [
+      "hypot",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#hypot"
+  },
+  {
+    "name": "isclose",
+    "category": "math",
+    "description": "Η isclose ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.isclose(...))",
+    "keywords": [
+      "isclose",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#isclose"
+  },
+  {
+    "name": "isfinite",
+    "category": "math",
+    "description": "Η isfinite ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.isfinite(...))",
+    "keywords": [
+      "isfinite",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#isfinite"
+  },
+  {
+    "name": "isinf",
+    "category": "math",
+    "description": "Η isinf ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.isinf(...))",
+    "keywords": [
+      "isinf",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#isinf"
+  },
+  {
+    "name": "isnan",
+    "category": "math",
+    "description": "Η isnan ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.isnan(...))",
+    "keywords": [
+      "isnan",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#isnan"
+  },
+  {
+    "name": "isqrt",
+    "category": "math",
+    "description": "Η isqrt ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.isqrt(...))",
+    "keywords": [
+      "isqrt",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#isqrt"
+  },
+  {
+    "name": "lcm",
+    "category": "math",
+    "description": "Η lcm ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.lcm(...))",
+    "keywords": [
+      "lcm",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#lcm"
+  },
+  {
+    "name": "ldexp",
+    "category": "math",
+    "description": "Η ldexp ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.ldexp(...))",
+    "keywords": [
+      "ldexp",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#ldexp"
+  },
+  {
+    "name": "lgamma",
+    "category": "math",
+    "description": "Η lgamma ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.lgamma(...))",
+    "keywords": [
+      "lgamma",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#lgamma"
+  },
+  {
+    "name": "log",
+    "category": "math",
+    "description": "Η log ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.log(...))",
+    "keywords": [
+      "log",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#log"
+  },
+  {
+    "name": "log10",
+    "category": "math",
+    "description": "Η log10 ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.log10(...))",
+    "keywords": [
+      "log10",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#log10"
+  },
+  {
+    "name": "log1p",
+    "category": "math",
+    "description": "Η log1p ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.log1p(...))",
+    "keywords": [
+      "log1p",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#log1p"
+  },
+  {
+    "name": "log2",
+    "category": "math",
+    "description": "Η log2 ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.log2(...))",
+    "keywords": [
+      "log2",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#log2"
+  },
+  {
+    "name": "modf",
+    "category": "math",
+    "description": "Η modf ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.modf(...))",
+    "keywords": [
+      "modf",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#modf"
+  },
+  {
+    "name": "nextafter",
+    "category": "math",
+    "description": "Η nextafter ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.nextafter(...))",
+    "keywords": [
+      "nextafter",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#nextafter"
+  },
+  {
+    "name": "perm",
+    "category": "math",
+    "description": "Η perm ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.perm(...))",
+    "keywords": [
+      "perm",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#perm"
+  },
+  {
+    "name": "pow",
+    "category": "math",
+    "description": "Η pow ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.pow(...))",
+    "keywords": [
+      "pow",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#pow"
+  },
+  {
+    "name": "prod",
+    "category": "math",
+    "description": "Η prod ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.prod(...))",
+    "keywords": [
+      "prod",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#prod"
+  },
+  {
+    "name": "radians",
+    "category": "math",
+    "description": "Η radians ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.radians(...))",
+    "keywords": [
+      "radians",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#radians"
+  },
+  {
+    "name": "remainder",
+    "category": "math",
+    "description": "Η remainder ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.remainder(...))",
+    "keywords": [
+      "remainder",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#remainder"
+  },
+  {
+    "name": "sin",
+    "category": "math",
+    "description": "Η sin ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.sin(...))",
+    "keywords": [
+      "sin",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#sin"
+  },
+  {
+    "name": "sinh",
+    "category": "math",
+    "description": "Η sinh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.sinh(...))",
+    "keywords": [
+      "sinh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#sinh"
+  },
+  {
+    "name": "sqrt",
+    "category": "math",
+    "description": "Η sqrt ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.sqrt(...))",
+    "keywords": [
+      "sqrt",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#sqrt"
+  },
+  {
+    "name": "tan",
+    "category": "math",
+    "description": "Η tan ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.tan(...))",
+    "keywords": [
+      "tan",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#tan"
+  },
+  {
+    "name": "tanh",
+    "category": "math",
+    "description": "Η tanh ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.tanh(...))",
+    "keywords": [
+      "tanh",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#tanh"
+  },
+  {
+    "name": "trunc",
+    "category": "math",
+    "description": "Η trunc ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.trunc(...))",
+    "keywords": [
+      "trunc",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#trunc"
+  },
+  {
+    "name": "ulp",
+    "category": "math",
+    "description": "Η ulp ειναι μια συναρτηση απο το module math που χρησιμοποιειται για αριθμητικες και μαθηματικες πραξεις. Με απλα λογια, τη χρησιμοποιουμε για να κανουμε υπολογισμους με πιο ευκολο τροπο. Ειναι πολυ χρησιμη για αρχαριους που θελουν να παιξουν με αριθμους και να καταλαβουν βασικα μαθηματικα.",
+    "example": "import math\nprint(math.ulp(...))",
+    "keywords": [
+      "ulp",
+      "math",
+      "number",
+      "calculation",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/math.html#ulp"
   }
 ]
