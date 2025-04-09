@@ -3343,7 +3343,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.acos"
+    "doc_url": "https://docs.python.org/3/library/math.html#acos"
   },
   {
     "name": "acosh",
@@ -3357,7 +3357,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.acosh"
+    "doc_url": "https://docs.python.org/3/library/math.html#acosh"
   },
   {
     "name": "asin",
@@ -3371,7 +3371,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.asin"
+    "doc_url": "https://docs.python.org/3/library/math.html#asin"
   },
   {
     "name": "asinh",
@@ -3385,7 +3385,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.asinh"
+    "doc_url": "https://docs.python.org/3/library/math.html#asinh"
   },
   {
     "name": "atan",
@@ -3399,7 +3399,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.atan"
+    "doc_url": "https://docs.python.org/3/library/math.html#atan"
   },
   {
     "name": "atan2",
@@ -3413,7 +3413,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.atan2"
+    "doc_url": "https://docs.python.org/3/library/math.html#atan2"
   },
   {
     "name": "atanh",
@@ -3427,7 +3427,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.atanh"
+    "doc_url": "https://docs.python.org/3/library/math.html#atanh"
   },
   {
     "name": "cbrt",
@@ -3441,7 +3441,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.cbrt"
+    "doc_url": "https://docs.python.org/3/library/math.html#cbrt"
   },
   {
     "name": "ceil",
@@ -3455,7 +3455,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.ceil"
+    "doc_url": "https://docs.python.org/3/library/math.html#ceil"
   },
   {
     "name": "comb",
@@ -3469,7 +3469,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.comb"
+    "doc_url": "https://docs.python.org/3/library/math.html#comb"
   },
   {
     "name": "copysign",
@@ -3483,7 +3483,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.copysign"
+    "doc_url": "https://docs.python.org/3/library/math.html#copysign"
   },
   {
     "name": "cos",
@@ -3497,7 +3497,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.cos"
+    "doc_url": "https://docs.python.org/3/library/math.html#cos"
   },
   {
     "name": "cosh",
@@ -3511,7 +3511,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.cosh"
+    "doc_url": "https://docs.python.org/3/library/math.html#cosh"
   },
   {
     "name": "degrees",
@@ -3525,7 +3525,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.degrees"
+    "doc_url": "https://docs.python.org/3/library/math.html#degrees"
   },
   {
     "name": "dist",
@@ -3539,7 +3539,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.dist"
+    "doc_url": "https://docs.python.org/3/library/math.html#dist"
   },
   {
     "name": "erf",
@@ -3553,7 +3553,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.erf"
+    "doc_url": "https://docs.python.org/3/library/math.html#erf"
   },
   {
     "name": "erfc",
@@ -3567,7 +3567,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.erfc"
+    "doc_url": "https://docs.python.org/3/library/math.html#erfc"
   },
   {
     "name": "exp",
@@ -3581,7 +3581,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.exp"
+    "doc_url": "https://docs.python.org/3/library/math.html#exp"
   },
   {
     "name": "exp2",
@@ -3595,7 +3595,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.exp2"
+    "doc_url": "https://docs.python.org/3/library/math.html#exp2"
   },
   {
     "name": "expm1",
@@ -3609,7 +3609,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.expm1"
+    "doc_url": "https://docs.python.org/3/library/math.html#expm1"
   },
   {
     "name": "fabs",
@@ -3623,7 +3623,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.fabs"
+    "doc_url": "https://docs.python.org/3/library/math.html#fabs"
   },
   {
     "name": "factorial",
@@ -3637,7 +3637,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.factorial"
+    "doc_url": "https://docs.python.org/3/library/math.html#factorial"
   },
   {
     "name": "floor",
@@ -3651,7 +3651,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.floor"
+    "doc_url": "https://docs.python.org/3/library/math.html#floor"
   },
   {
     "name": "fmod",
@@ -3665,7 +3665,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.fmod"
+    "doc_url": "https://docs.python.org/3/library/math.html#fmod"
   },
   {
     "name": "frexp",
@@ -3679,7 +3679,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.frexp"
+    "doc_url": "https://docs.python.org/3/library/math.html#frexp"
   },
   {
     "name": "fsum",
@@ -3693,7 +3693,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.fsum"
+    "doc_url": "https://docs.python.org/3/library/math.html#fsum"
   },
   {
     "name": "gamma",
@@ -3707,7 +3707,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.gamma"
+    "doc_url": "https://docs.python.org/3/library/math.html#gamma"
   },
   {
     "name": "gcd",
@@ -3721,7 +3721,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.gcd"
+    "doc_url": "https://docs.python.org/3/library/math.html#gcd"
   },
   {
     "name": "hypot",
@@ -3735,7 +3735,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.hypot"
+    "doc_url": "https://docs.python.org/3/library/math.html#hypot"
   },
   {
     "name": "isclose",
@@ -3749,7 +3749,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.isclose"
+    "doc_url": "https://docs.python.org/3/library/math.html#isclose"
   },
   {
     "name": "isfinite",
@@ -3763,7 +3763,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.isfinite"
+    "doc_url": "https://docs.python.org/3/library/math.html#isfinite"
   },
   {
     "name": "isinf",
@@ -3777,7 +3777,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.isinf"
+    "doc_url": "https://docs.python.org/3/library/math.html#isinf"
   },
   {
     "name": "isnan",
@@ -3791,7 +3791,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.isnan"
+    "doc_url": "https://docs.python.org/3/library/math.html#isnan"
   },
   {
     "name": "isqrt",
@@ -3805,7 +3805,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.isqrt"
+    "doc_url": "https://docs.python.org/3/library/math.html#isqrt"
   },
   {
     "name": "lcm",
@@ -3819,7 +3819,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.lcm"
+    "doc_url": "https://docs.python.org/3/library/math.html#lcm"
   },
   {
     "name": "ldexp",
@@ -3833,7 +3833,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.ldexp"
+    "doc_url": "https://docs.python.org/3/library/math.html#ldexp"
   },
   {
     "name": "lgamma",
@@ -3847,7 +3847,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.lgamma"
+    "doc_url": "https://docs.python.org/3/library/math.html#lgamma"
   },
   {
     "name": "log",
@@ -3861,7 +3861,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.log"
+    "doc_url": "https://docs.python.org/3/library/math.html#log"
   },
   {
     "name": "log10",
@@ -3875,7 +3875,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.log10"
+    "doc_url": "https://docs.python.org/3/library/math.html#log10"
   },
   {
     "name": "log1p",
@@ -3889,7 +3889,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.log1p"
+    "doc_url": "https://docs.python.org/3/library/math.html#log1p"
   },
   {
     "name": "log2",
@@ -3903,7 +3903,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.log2"
+    "doc_url": "https://docs.python.org/3/library/math.html#log2"
   },
   {
     "name": "modf",
@@ -3917,7 +3917,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.modf"
+    "doc_url": "https://docs.python.org/3/library/math.html#modf"
   },
   {
     "name": "nextafter",
@@ -3931,7 +3931,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.nextafter"
+    "doc_url": "https://docs.python.org/3/library/math.html#nextafter"
   },
   {
     "name": "perm",
@@ -3945,7 +3945,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.perm"
+    "doc_url": "https://docs.python.org/3/library/math.html#perm"
   },
   {
     "name": "pow",
@@ -3959,7 +3959,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.pow"
+    "doc_url": "https://docs.python.org/3/library/math.html#pow"
   },
   {
     "name": "prod",
@@ -3973,7 +3973,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.prod"
+    "doc_url": "https://docs.python.org/3/library/math.html#prod"
   },
   {
     "name": "radians",
@@ -3987,7 +3987,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.radians"
+    "doc_url": "https://docs.python.org/3/library/math.html#radians"
   },
   {
     "name": "remainder",
@@ -4001,7 +4001,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.remainder"
+    "doc_url": "https://docs.python.org/3/library/math.html#remainder"
   },
   {
     "name": "sin",
@@ -4015,7 +4015,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.sin"
+    "doc_url": "https://docs.python.org/3/library/math.html#sin"
   },
   {
     "name": "sinh",
@@ -4029,7 +4029,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.sinh"
+    "doc_url": "https://docs.python.org/3/library/math.html#sinh"
   },
   {
     "name": "sqrt",
@@ -4043,7 +4043,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.sqrt"
+    "doc_url": "https://docs.python.org/3/library/math.html#sqrt"
   },
   {
     "name": "tan",
@@ -4057,7 +4057,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.tan"
+    "doc_url": "https://docs.python.org/3/library/math.html#tan"
   },
   {
     "name": "tanh",
@@ -4071,7 +4071,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.tanh"
+    "doc_url": "https://docs.python.org/3/library/math.html#tanh"
   },
   {
     "name": "trunc",
@@ -4085,7 +4085,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.trunc"
+    "doc_url": "https://docs.python.org/3/library/math.html#trunc"
   },
   {
     "name": "ulp",
@@ -4099,7 +4099,7 @@
       "calculation",
       "function"
     ],
-    "doc_url": "https://docs.python.org/3/library/math.html#math.ulp"
+    "doc_url": "https://docs.python.org/3/library/math.html#ulp"
   },
   {
     "name": "BaseWidget",
@@ -4786,5 +4786,75 @@
       "widget"
     ],
     "doc_url": "https://docs.python.org/3/library/tkinter.html#mainloop"
+  },
+  {
+    "name": "sleep",
+    "category": "time",
+    "description": "Η sleep ειναι μια συναρτηση που μας επιτρεπει να σταματησουμε την εκτελεση του προγραμματος για καποιο χρονικο διαστημα. Ειναι πολυ χρησιμη οταν θελουμε να δημιουργησουμε καθυστερησεις, οπως για παραδειγμα μεταξυ δυο εμφανισεων στην οθονη.",
+    "example": "import time\nprint('Start')\ntime.sleep(2)\nprint('End after 2 seconds')",
+    "keywords": [
+      "sleep",
+      "pause",
+      "delay",
+      "time",
+      "wait"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.sleep"
+  },
+  {
+    "name": "time",
+    "category": "time",
+    "description": "Η time επιστρεφει τον τρεχοντα χρονο σε δευτερολεπτα απο την 1 Ιανουαριου 1970. Αυτο ειναι χρησιμο για χρονομετρηση και μετρησεις χρονου.",
+    "example": "import time\nprint(time.time())",
+    "keywords": [
+      "time",
+      "timestamp",
+      "seconds",
+      "unix",
+      "epoch"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.time"
+  },
+  {
+    "name": "ctime",
+    "category": "time",
+    "description": "Η ctime μετατρεπει εναν αριθμο χρονου (timestamp) σε μια πιο ευαναγνωστη μορφη ημερομηνιας και ωρας.",
+    "example": "import time\nprint(time.ctime())",
+    "keywords": [
+      "ctime",
+      "date",
+      "time",
+      "convert",
+      "readable"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.ctime"
+  },
+  {
+    "name": "strftime",
+    "category": "time",
+    "description": "Η strftime χρησιμοποιειται για να μορφοποιησουμε ημερομηνιες και ωρες σε μορφες που εμεις θελουμε. Μπορουμε να διαλεξουμε πως θελουμε να φαινεται η ημερομηνια ή η ωρα.",
+    "example": "import time\nprint(time.strftime('%Y-%m-%d %H:%M:%S'))",
+    "keywords": [
+      "strftime",
+      "format",
+      "date",
+      "time",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.strftime"
+  },
+  {
+    "name": "localtime",
+    "category": "time",
+    "description": "Η localtime επιστρεφει την τρεχουσα ημερομηνια και ωρα με λεπτομερειες, οπως ετος, μηνας, ημερα, ωρα κλπ, σε μορφη struct_time.",
+    "example": "import time\nprint(time.localtime())",
+    "keywords": [
+      "localtime",
+      "date",
+      "time",
+      "struct_time",
+      "now"
+    ],
+    "doc_url": "https://docs.python.org/3/library/time.html#time.localtime"
   }
 ]
