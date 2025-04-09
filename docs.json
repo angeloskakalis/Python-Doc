@@ -1,0 +1,3425 @@
+[
+  {
+    "name": "list",
+    "category": "list",
+    "description": "η list (λιστα) ειναι μια μεταβλητη που περιεχει σειρα απο στοιχεια με συγκεκριμενη σειρα και δυνατοτητα αλλαγης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 3]\nprint(numbers[0])  # Εμφανιζει το πρωτο στοιχειο",
+    "keywords": [
+      "list",
+      "array",
+      "sequence",
+      "append",
+      "pop",
+      "index"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "append",
+    "category": "list",
+    "description": "Η μέθοδος append προσθέτει ένα νέο στοιχείο στο τέλος μιας λίστας. Σκέψου το σαν να έχεις ένα καλάθι στο οποίο βάζεις συνεχώς νέα αντικείμενα ένα-ένα, πάντα στο τέλος. Είναι πολύ χρήσιμη όταν θέλεις να προσθέσεις δεδομένα σε μια λίστα που έχεις ήδη δημιουργήσει. Δε δημιουργεί νέα λίστα, αλλά αλλάζει την ήδη υπάρχουσα.",
+    "example": "fruits = ['apple', 'banana']\nfruits.append('orange')  # Προσθέτει το 'orange' στο τέλος της λίστας\nprint(fruits)  # ['apple', 'banana', 'orange']",
+    "keywords": [
+      "append",
+      "add"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "pop",
+    "category": "list",
+    "description": "η pop αφαιρει και επιστρεφει το τελευταιο στοιχειο απο τη λιστα. αν δωσεις δεικτη, αφαιρει απο συγκεκριμενη θεση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 3]\nx = numbers.pop()\nprint(x)  # 3",
+    "keywords": [
+      "pop",
+      "remove"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "dict",
+    "category": "dict",
+    "description": "το dict (λεξικο) αποθηκευει ζευγη 'κλειδι:τιμη'. ειναι μεταβλητο και δεν εχει σειρα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "student = {'name': 'Μαρια', 'age': 14}\nprint(student['name'])",
+    "keywords": [
+      "dictionary",
+      "dict",
+      "key",
+      "value"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "for",
+    "category": "flow",
+    "description": "ο βροχος for επαναλαμβανει ενα μπλοκ κωδικα για καθε στοιχειο σε iterable (λιστα, string, range, κ.λπ). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "for letter in 'python':\n    print(letter)",
+    "keywords": [
+      "for",
+      "loop",
+      "range"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html"
+  },
+  {
+    "name": "if",
+    "category": "flow",
+    "description": "η if εκτελει ενα μπλοκ μονο αν μια συνθηκη ειναι true. συχνα χρησιμοποιειται με else η elif. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "x = 5\nif x > 0:\n    print('Θετικος')",
+    "keywords": [
+      "if",
+      "true",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html"
+  },
+  {
+    "name": "len",
+    "category": "builtins",
+    "description": "η len επιστρεφει το μηκος (πληθος στοιχειων) μιας λιστας, string η αλλου iterable. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "word = 'Python'\nprint(len(word))  # 6",
+    "keywords": [
+      "len",
+      "list",
+      "string",
+      "count"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#len"
+  },
+  {
+    "name": "def",
+    "category": "functions",
+    "description": "η def χρησιμοποιειται για να ορισεις μια συναρτηση. η λογικη της μπαινει μεσα με εσοχη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def greeting(name):\n    print(f'Γεια σου, {name}')",
+    "keywords": [
+      "def",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "return",
+    "category": "functions",
+    "description": "η return επιστρεφει μια τιμη απο συναρτηση πισω στον καλουντα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def double(x):\n    return x * 2",
+    "keywords": [
+      "return",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "int",
+    "category": "types",
+    "description": "ακεραιος αριθμος. μπορει να ειναι θετικος η αρνητικος. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "x = 42\ntype(x)  # <class 'int'>",
+    "keywords": [
+      "int",
+      "integer",
+      "number"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "float",
+    "category": "types",
+    "description": "δεκαδικος αριθμος (floating point). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "x = 3.14\ntype(x)",
+    "keywords": [
+      "float",
+      "decimal"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "bool",
+    "category": "types",
+    "description": "τιμη αληθες η ψευδες. boolean λογικη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "truth = True\nfalsehood = False",
+    "keywords": [
+      "boolean",
+      "true",
+      "false",
+      "bool"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "None",
+    "category": "types",
+    "description": "ειδικη τιμη που δειχνει οτι κατι ειναι αδειο η αγνωστο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "result = None",
+    "keywords": [
+      "none",
+      "null",
+      "undefined"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "tuple",
+    "category": "types",
+    "description": "οπως οι λιστες, αλλα αμεταβλητες. χρησιμοποιουνται για σταθερα δεδομενα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "coordinates = (10, 20)",
+    "keywords": [
+      "tuple",
+      "immutable"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "set",
+    "category": "types",
+    "description": "συνολο απο μοναδικες τιμες, χωρις σειρα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "letterτα = {'α', 'β', 'γ'}",
+    "keywords": [
+      "set",
+      "unique"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html"
+  },
+  {
+    "name": "upper",
+    "category": "str",
+    "description": "μετατρεπει ολα τα γραμματα σε κεφαλαια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'python'.upper()  # 'PYTHON'",
+    "keywords": [
+      "upper",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#upper"
+  },
+  {
+    "name": "lower",
+    "category": "str",
+    "description": "μετατρεπει ολα τα γραμματα σε μικρα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'HELLO'.lower()  # 'hello'",
+    "keywords": [
+      "lower",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#lower"
+  },
+  {
+    "name": "split",
+    "category": "str",
+    "description": "χωριζει ενα string σε λιστα με βαση ενα χαρακτηρα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'ενα δυο τρια'.split()  # ['ενα', 'δυο', 'τρια']",
+    "keywords": [
+      "split",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#split"
+  },
+  {
+    "name": "join",
+    "category": "str",
+    "description": "ενωνει τα στοιχεια μιας λιστας σε string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "' '.join(['Python', 'rocks'])  # 'Python rocks'",
+    "keywords": [
+      "join",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#join"
+  },
+  {
+    "name": "replace",
+    "category": "str",
+    "description": "αντικαθιστα χαρακτηρες η λεξεις σε string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'goodmorning'.replace('καλη', 'χαρη')  # 'χαρημερα'",
+    "keywords": [
+      "replace",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#replace"
+  },
+  {
+    "name": "type",
+    "category": "builtins",
+    "description": "επιστρεφει τον τυπο μιας μεταβλητης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "type('hello')  # <class 'str'>",
+    "keywords": [
+      "type"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#type"
+  },
+  {
+    "name": "range",
+    "category": "builtins",
+    "description": "δημιουργει μια ακολουθια αριθμων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "list(range(3))  # [0, 1, 2]",
+    "keywords": [
+      "range",
+      "for",
+      "loop"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#range"
+  },
+  {
+    "name": "try/except",
+    "category": "exceptions",
+    "description": "χρησιμοποιειται για χειρισμο σφαλματων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('λαθος')",
+    "keywords": [
+      "try",
+      "except"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/errors.html"
+  },
+  {
+    "name": "finally",
+    "category": "exceptions",
+    "description": "τμημα κωδικα που εκτελειται παντα, ακομα και αν υπαρξει σφαλμα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "finally:\n    print('Τελος προσπαθειας')",
+    "keywords": [
+      "finally"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/errors.html"
+  },
+  {
+    "name": "raise",
+    "category": "exceptions",
+    "description": "δημιουργει (εκτοξευει) σφαλμα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "raise ValueError('λαθος δεδομενα')",
+    "keywords": [
+      "raise",
+      "error"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/errors.html"
+  },
+  {
+    "name": "extend",
+    "category": "list",
+    "description": "προσθετει πολλα στοιχεια στο τελος της λιστας. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2]\nnumbers.extend([3, 4])",
+    "keywords": [
+      "extend"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "insert",
+    "category": "list",
+    "description": "εισαγει στοιχειο σε συγκεκριμενη θεση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 3]\nnumbers.insert(1, 2)",
+    "keywords": [
+      "insert"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "remove",
+    "category": "list",
+    "description": "αφαιρει την πρωτη εμφανιση τιμης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 3, 2]\nnumbers.remove(2)",
+    "keywords": [
+      "remove"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "clear",
+    "category": "list",
+    "description": "αφαιρει ολα τα στοιχεια απο μια λιστα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 3]\nnumbers.clear()",
+    "keywords": [
+      "clear"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "index",
+    "category": "list",
+    "description": "επιστρεφει το index μιας τιμης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [10, 20, 30]\nnumbers.index(20)",
+    "keywords": [
+      "index"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "count",
+    "category": "list",
+    "description": "μετραει ποσες φορες εμφανιζεται μια τιμη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 2, 3]\nnumbers.count(2)",
+    "keywords": [
+      "count"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "reverse",
+    "category": "list",
+    "description": "αντιστρεφει τη σειρα της λιστας. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [1, 2, 3]\nnumbers.reverse()",
+    "keywords": [
+      "reverse"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "sort",
+    "category": "list",
+    "description": "ταξινομει τα στοιχεια της λιστας. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers = [3, 1, 2]\nnumbers.sort()",
+    "keywords": [
+      "sort"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html"
+  },
+  {
+    "name": "strip",
+    "category": "str",
+    "description": "αφαιρει κενα η χαρακτηρες απο την αρχη και το τελος. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'  text  '.strip()  # 'text'",
+    "keywords": [
+      "strip",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#strip"
+  },
+  {
+    "name": "startswith",
+    "category": "str",
+    "description": "ελεγχει αν ενα string ξεκινα με συγκεκριμενο substring. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'Python'.startswith('Py')",
+    "keywords": [
+      "start",
+      "begin",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#startswith"
+  },
+  {
+    "name": "endswith",
+    "category": "str",
+    "description": "ελεγχει αν ενα string τελειωνει με substring. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'file.txt'.endswith('.txt')",
+    "keywords": [
+      "end",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#endswith"
+  },
+  {
+    "name": "find",
+    "category": "str",
+    "description": "επιστρεφει το index του substring, η -1 αν δεν υπαρχει. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'python'.find('th')  # 2",
+    "keywords": [
+      "find",
+      "index",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#find"
+  },
+  {
+    "name": "keys",
+    "category": "dict",
+    "description": "επιστρεφει ολα τα κλειδια του λεξικου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data = {'a': 1}\ndata.keys()",
+    "keywords": [
+      "keys",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "values",
+    "category": "dict",
+    "description": "επιστρεφει ολες τις τιμες του λεξικου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data = {'a': 1}\ndata.values()",
+    "keywords": [
+      "values",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "items",
+    "category": "dict",
+    "description": "επιστρεφει λιστα απο (κλειδι, τιμη). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data = {'a': 1}\ndata.items()",
+    "keywords": [
+      "items",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "get",
+    "category": "dict",
+    "description": "επιστρεφει τιμη για κλειδι, η προεπιλεγμενη τιμη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data.get('x', 0)",
+    "keywords": [
+      "get",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "update",
+    "category": "dict",
+    "description": "προσθετει η ενημερωνει στοιχεια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data.update({'b': 2})",
+    "keywords": [
+      "update",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "pop",
+    "category": "dict",
+    "description": "αφαιρει και επιστρεφει τιμη για ενα κλειδι. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "data.pop('a')",
+    "keywords": [
+      "pop",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+  },
+  {
+    "name": "add",
+    "category": "set",
+    "description": "προσθετει στοιχειο στο συνολο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "s = {1, 2}\ns.add(3)",
+    "keywords": [
+      "add",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+  },
+  {
+    "name": "remove",
+    "category": "set",
+    "description": "αφαιρει στοιχειο απο το συνολο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "s.remove(2)",
+    "keywords": [
+      "remove",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+  },
+  {
+    "name": "union",
+    "category": "set",
+    "description": "επιστρεφει την ενωση δυο συνολων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "{1, 2}.union({2, 3})",
+    "keywords": [
+      "union",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+  },
+  {
+    "name": "intersection",
+    "category": "set",
+    "description": "επιστρεφει την τομη δυο συνολων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "{1, 2}.intersection({2, 3})",
+    "keywords": [
+      "intersection",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+  },
+  {
+    "name": "difference",
+    "category": "set",
+    "description": "επιστρεφει τα στοιχεια που υπαρχουν μονο στο πρωτο συνολο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "{1, 2, 3}.difference({2, 3})",
+    "keywords": [
+      "difference",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/datastructures.html#sets"
+  },
+  {
+    "name": "input",
+    "category": "builtins",
+    "description": "διαβαζει input απο τον χρηστη (παντα ως string). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "name = input('Πως σε λενε; ')",
+    "keywords": [
+      "input",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#input"
+  },
+  {
+    "name": "print",
+    "category": "builtins",
+    "description": "εκτυπωνει δεδομενα στην οθονη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "print('Hello', 'World', sep=', ')",
+    "keywords": [
+      "print",
+      "output",
+      "stdout"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#print"
+  },
+  {
+    "name": "open",
+    "category": "files",
+    "description": "ανοιγει ενα αρχειο για αναγνωση η εγγραφη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "with open('file.txt', 'r') as f:\n    data = f.read()",
+    "keywords": [
+      "open",
+      "file",
+      "read",
+      "write"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+  },
+  {
+    "name": "read",
+    "category": "files",
+    "description": "διαβαζει το περιεχομενο ενος αρχειου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "f.read()  # Διαβαζει ολο το αρχειο",
+    "keywords": [
+      "read",
+      "file"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+  },
+  {
+    "name": "write",
+    "category": "files",
+    "description": "γραφει δεδομενα σε αρχειο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "f.write('Γεια σου κοσμε')",
+    "keywords": [
+      "write",
+      "file"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+  },
+  {
+    "name": "close",
+    "category": "files",
+    "description": "κλεινει ενα αρχειο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "f.close()",
+    "keywords": [
+      "close",
+      "file"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+  },
+  {
+    "name": "with",
+    "category": "files",
+    "description": "δημιουργει context manager για αυτοματο κλεισιμο πορων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "with open('file.txt') as f:\n    data = f.read()",
+    "keywords": [
+      "with",
+      "context",
+      "manager"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+  },
+  {
+    "name": "class",
+    "category": "oop",
+    "description": "οριζει μια κλαση (τυπολογια αντικειμενων). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "class Κατι:\n    def __init__(self):\n        pass",
+    "keywords": [
+      "class",
+      "object",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "__init__",
+    "category": "oop",
+    "description": "ειδικη μεθοδος που καλειται οταν δημιουργειται ενα αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __init__(self, name):\n    self.name = name",
+    "keywords": [
+      "init",
+      "constructor"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "self",
+    "category": "oop",
+    "description": "αναφορα στο τρεχον αντικειμενο μεσα σε μεθοδους κλασης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "class Κατι:\n    def μεθοδος(self):\n        print(self)",
+    "keywords": [
+      "self",
+      "instance"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "import",
+    "category": "modules",
+    "description": "εισαγει ενα module η βιβλιοθηκη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import math\nmath.sqrt(16)",
+    "keywords": [
+      "import",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "from",
+    "category": "modules",
+    "description": "εισαγει συγκεκριμενες συναρτησεις/μεταβλητες απο module. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from math import sqrt\nsqrt(16)",
+    "keywords": [
+      "from",
+      "import",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "as",
+    "category": "modules",
+    "description": "δινει ψευδωνυμο σε module η συναρτηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import numpy as np",
+    "keywords": [
+      "as",
+      "alias",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "lambda",
+    "category": "functions",
+    "description": "δημιουργει ανωνυμες συναρτησεις (χωρις ονομα). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "double = lambda x: x * 2",
+    "keywords": [
+      "lambda",
+      "anonymous",
+      "expression"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "map",
+    "category": "functions",
+    "description": "εφαρμοζει συναρτηση σε καθε στοιχειο iterable. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "list(map(lambda x: x**2, [1, 2, 3]))",
+    "keywords": [
+      "map",
+      "apply",
+      "function",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "filter",
+    "category": "functions",
+    "description": "φιλτραρει στοιχεια με βαση συνθηκη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "list(filter(lambda x: x > 0, [-1, 0, 1]))",
+    "keywords": [
+      "filter",
+      "condition",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "reduce",
+    "category": "functions",
+    "description": "εφαρμοζει συναρτηση σε ζευγη στοιχειων (απο functools). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from functools import reduce\nreduce(lambda x,y: x+y, [1, 2, 3])",
+    "keywords": [
+      "reduce",
+      "accumulate",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "enumerate",
+    "category": "builtins",
+    "description": "επιστρεφει index και τιμη για καθε στοιχειο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "for i, val in enumerate(['a', 'b']):\n    print(i, val)",
+    "keywords": [
+      "enumerate",
+      "index",
+      "loop",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#enumerate"
+  },
+  {
+    "name": "zip",
+    "category": "builtins",
+    "description": "συνδυαζει πολλα iterables σε tuple. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "list(zip([1, 2], ['a', 'b']))",
+    "keywords": [
+      "zip",
+      "combine",
+      "iterable",
+      "tuple"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#zip"
+  },
+  {
+    "name": "sorted",
+    "category": "builtins",
+    "description": "επιστρεφει ταξινομημενη λιστα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "sorted([3, 1, 2], reverse=True)",
+    "keywords": [
+      "sorted",
+      "sort"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#sorted"
+  },
+  {
+    "name": "min",
+    "category": "builtins",
+    "description": "επιστρεφει τη μικροτερη τιμη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "min([1, 2, 3])",
+    "keywords": [
+      "min",
+      "minimum"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#min"
+  },
+  {
+    "name": "max",
+    "category": "builtins",
+    "description": "επιστρεφει τη μεγαλυτερη τιμη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "max([1, 2, 3])",
+    "keywords": [
+      "max",
+      "maximum"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#max"
+  },
+  {
+    "name": "sum",
+    "category": "builtins",
+    "description": "επιστρεφει το αθροισμα στοιχειων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "sum([1, 2, 3])",
+    "keywords": [
+      "sum"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#sum"
+  },
+  {
+    "name": "abs",
+    "category": "builtins",
+    "description": "επιστρεφει την απολυτη τιμη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "abs(-5)",
+    "keywords": [
+      "abs",
+      "absolute"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#abs"
+  },
+  {
+    "name": "round",
+    "category": "builtins",
+    "description": "στρογγυλοποιει εναν αριθμο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "round(3.14159, 2)",
+    "keywords": [
+      "round",
+      "float",
+      "decimal"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#round"
+  },
+  {
+    "name": "isinstance",
+    "category": "builtins",
+    "description": "ελεγχει αν ενα αντικειμενο ειναι instance κλασης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "isinstance(5, int)",
+    "keywords": [
+      "isinstance",
+      "type",
+      "check",
+      "instance"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#isinstance"
+  },
+  {
+    "name": "issubclass",
+    "category": "builtins",
+    "description": "ελεγχει αν μια κλαση ειναι υποκλαση αλλης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "issubclass(bool, int)",
+    "keywords": [
+      "issubclass",
+      "inheritance"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#issubclass"
+  },
+  {
+    "name": "super",
+    "category": "oop",
+    "description": "επιστρεφει proxy αντικειμενο που αναφερεται στην parent κλαση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "super().__init__()",
+    "keywords": [
+      "super",
+      "parent",
+      "inheritance"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "globals",
+    "category": "builtins",
+    "description": "επιστρεφει dictionary με global μεταβλητες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "globals()",
+    "keywords": [
+      "globals",
+      "global",
+      "scope"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#globals"
+  },
+  {
+    "name": "locals",
+    "category": "builtins",
+    "description": "επιστρεφει dictionary με local μεταβλητες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "locals()",
+    "keywords": [
+      "locals",
+      "local",
+      "scope"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#locals"
+  },
+  {
+    "name": "dir",
+    "category": "builtins",
+    "description": "επιστρεφει λιστα με attributes ενος αντικειμενου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "dir([])",
+    "keywords": [
+      "dir",
+      "attributes",
+      "methods"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#dir"
+  },
+  {
+    "name": "help",
+    "category": "builtins",
+    "description": "εμφανιζει τεκμηριωση για αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "help(list)",
+    "keywords": [
+      "help",
+      "documentation"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#help"
+  },
+  {
+    "name": "eval",
+    "category": "builtins",
+    "description": "εκτελει string ως python κωδικα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "eval('2 + 2')",
+    "keywords": [
+      "eval",
+      "execute",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#eval"
+  },
+  {
+    "name": "exec",
+    "category": "builtins",
+    "description": "εκτελει string ως python κωδικα (για statements). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "exec('x = 5')",
+    "keywords": [
+      "exec",
+      "execute",
+      "statement"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#exec"
+  },
+  {
+    "name": "compile",
+    "category": "builtins",
+    "description": "μετατρεπει string σε bytecode. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "code = compile('print(5)', '', 'exec')",
+    "keywords": [
+      "compile",
+      "bytecode"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#compile"
+  },
+  {
+    "name": "property",
+    "category": "oop",
+    "description": "δημιουργει property (getter/setter/deleter). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@property\ndef name(self):\n    return self._name",
+    "keywords": [
+      "property",
+      "getter",
+      "setter",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "staticmethod",
+    "category": "oop",
+    "description": "δημιουργει στατικη μεθοδο (χωρις self). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@staticmethod\ndef μεθοδος():\n    pass",
+    "keywords": [
+      "staticmethod",
+      "static",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "classmethod",
+    "category": "oop",
+    "description": "δημιουργει μεθοδο κλασης (με cls αντι για self). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@classmethod\ndef μεθοδος(cls):\n    pass",
+    "keywords": [
+      "classmethod",
+      "class",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "del",
+    "category": "builtins",
+    "description": "διαγραφει μια μεταβλητη η attribute. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "del x",
+    "keywords": [
+      "del",
+      "delete"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#del"
+  },
+  {
+    "name": "assert",
+    "category": "debugging",
+    "description": "ελεγχει συνθηκη και κανει raise assertionerror αν ειναι ψευδης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "assert 1 == 1, 'Λαθος'",
+    "keywords": [
+      "assert",
+      "debug"
+    ],
+    "doc_url": "https://docs.python.org/3/library/exceptions.html"
+  },
+  {
+    "name": "break",
+    "category": "flow",
+    "description": "σταματαει εναν βροχο (for/while). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "for x in range(10):\n    if x == 5:\n        break",
+    "keywords": [
+      "break",
+      "loop",
+      "exit"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html"
+  },
+  {
+    "name": "continue",
+    "category": "flow",
+    "description": "συνεχιζει στην επομενη επαναληψη του βροχου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "for x in range(10):\n    if x % 2 == 0:\n        continue",
+    "keywords": [
+      "continue",
+      "loop",
+      "skip"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html"
+  },
+  {
+    "name": "pass",
+    "category": "flow",
+    "description": "δεν κανει τιποτα (placeholder). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "if x > 0:\n    pass",
+    "keywords": [
+      "pass",
+      "empty",
+      "placeholder",
+      "noop"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html"
+  },
+  {
+    "name": "yield",
+    "category": "functions",
+    "description": "δημιουργει generator (συναρτηση που επιστρεφει sequence). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def generator():\n    yield 1\n    yield 2",
+    "keywords": [
+      "yield",
+      "generator",
+      "sequence",
+      "iterate"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+  },
+  {
+    "name": "async",
+    "category": "asyncio",
+    "description": "οριζει ασυγχρονη συναρτηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "async def fetch():\n    await response",
+    "keywords": [
+      "async",
+      "await",
+      "asyncio"
+    ],
+    "doc_url": "https://docs.python.org/3/library/asyncio.html"
+  },
+  {
+    "name": "await",
+    "category": "asyncio",
+    "description": "περιμενει να ολοκληρωθει ασυγχρονη λειτουργια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "await fetch()",
+    "keywords": [
+      "await",
+      "async",
+      "asyncio"
+    ],
+    "doc_url": "https://docs.python.org/3/library/asyncio.html"
+  },
+  {
+    "name": "global",
+    "category": "scope",
+    "description": "δηλωνει οτι μια μεταβλητη ειναι global. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "global x\nx = 5",
+    "keywords": [
+      "global",
+      "scope"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces"
+  },
+  {
+    "name": "nonlocal",
+    "category": "scope",
+    "description": "δηλωνει οτι μια μεταβλητη ανηκει σε enclosing scope. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "nonlocal x\nx = 5",
+    "keywords": [
+      "nonlocal",
+      "scope"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces"
+  },
+  {
+    "name": "in",
+    "category": "operators",
+    "description": "ελεγχει αν ενα στοιχειο υπαρχει σε iterable. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'a' in ['a', 'b']",
+    "keywords": [
+      "in",
+      "contains",
+      "membership",
+      "test"
+    ],
+    "doc_url": "https://docs.python.org/3/library/operator.html#in"
+  },
+  {
+    "name": "is",
+    "category": "operators",
+    "description": "ελεγχει αν δυο αντικειμενα ειναι το ιδιο (ιδια μνημη). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "x is None",
+    "keywords": [
+      "is",
+      "identity"
+    ],
+    "doc_url": "https://docs.python.org/3/library/operator.html#is"
+  },
+  {
+    "name": "not",
+    "category": "operators",
+    "description": "λογικο not (αντιστροφη boolean τιμης). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "not True",
+    "keywords": [
+      "not",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/library/operator.html#not"
+  },
+  {
+    "name": "and",
+    "category": "operators",
+    "description": "λογικο and (true αν και τα δυο true). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "True and False",
+    "keywords": [
+      "and",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/library/operator.html#and"
+  },
+  {
+    "name": "or",
+    "category": "operators",
+    "description": "λογικο or (true αν τουλαχιστον ενα true). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "True or False",
+    "keywords": [
+      "or",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/library/operator.html#or"
+  },
+  {
+    "name": "f-strings",
+    "category": "str",
+    "description": "μορφοποιημενα strings με embedded expressions. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "f'Hello {name}'",
+    "keywords": [
+      "format",
+      "string",
+      "embedded"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#f-strings"
+  },
+  {
+    "name": "format",
+    "category": "str",
+    "description": "μορφοποιει string με placeholders. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'{} {}'.format('Hello', 'World')",
+    "keywords": [
+      "format",
+      "string",
+      "placeholder"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#format"
+  },
+  {
+    "name": "% formatting",
+    "category": "str",
+    "description": "παλιος τροπος μορφοποιησης strings (style printf). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "'%s %d' % ('test', 42)",
+    "keywords": [
+      "format",
+      "string",
+      "printf"
+    ],
+    "doc_url": "https://docs.python.org/3/library/stdtypes.html#string-methods#% formatting"
+  },
+  {
+    "name": "slice",
+    "category": "builtins",
+    "description": "δημιουργει slice object για κομματια sequences. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "numbers[1:3]  # slice(1, 3)",
+    "keywords": [
+      "slice",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#slice"
+  },
+  {
+    "name": "any",
+    "category": "builtins",
+    "description": "επιστρεφει true αν τουλαχιστον ενα στοιχειο ειναι true. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "any([False, True, False])",
+    "keywords": [
+      "any",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#any"
+  },
+  {
+    "name": "all",
+    "category": "builtins",
+    "description": "επιστρεφει true αν ολα τα στοιχεια ειναι true. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "all([True, True, False])",
+    "keywords": [
+      "all",
+      "boolean"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#all"
+  },
+  {
+    "name": "getattr",
+    "category": "builtins",
+    "description": "επιστρεφει το attribute ενος αντικειμενου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "getattr(obj, 'attr')",
+    "keywords": [
+      "getattr",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#getattr"
+  },
+  {
+    "name": "setattr",
+    "category": "builtins",
+    "description": "οριζει το attribute ενος αντικειμενου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "setattr(obj, 'attr', value)",
+    "keywords": [
+      "setattr",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#setattr"
+  },
+  {
+    "name": "hasattr",
+    "category": "builtins",
+    "description": "ελεγχει αν ενα αντικειμενο εχει attribute. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "hasattr(obj, 'attr')",
+    "keywords": [
+      "hasattr",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#hasattr"
+  },
+  {
+    "name": "delattr",
+    "category": "builtins",
+    "description": "διαγραφει attribute απο αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "delattr(obj, 'attr')",
+    "keywords": [
+      "delattr",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#delattr"
+  },
+  {
+    "name": "callable",
+    "category": "builtins",
+    "description": "ελεγχει αν ενα αντικειμενο μπορει να κληθει (συναρτηση/κλαση). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "callable(print)",
+    "keywords": [
+      "callable",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#callable"
+  },
+  {
+    "name": "iter",
+    "category": "builtins",
+    "description": "επιστρεφει iterator για iterable. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "iter([1, 2, 3])",
+    "keywords": [
+      "iter",
+      "iterator",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#iter"
+  },
+  {
+    "name": "next",
+    "category": "builtins",
+    "description": "επιστρεφει το επομενο στοιχειο απο iterator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "next(iter([1, 2]))",
+    "keywords": [
+      "next",
+      "iterator",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#next"
+  },
+  {
+    "name": "reversed",
+    "category": "builtins",
+    "description": "επιστρεφει reversed iterator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "reversed([1, 2, 3])",
+    "keywords": [
+      "reversed",
+      "reverse",
+      "iterator",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#reversed"
+  },
+  {
+    "name": "hash",
+    "category": "builtins",
+    "description": "επιστρεφει hash τιμη για αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "hash('test')",
+    "keywords": [
+      "hash",
+      "dictionary",
+      "key"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#hash"
+  },
+  {
+    "name": "id",
+    "category": "builtins",
+    "description": "επιστρεφει μοναδικο αναγνωριστικο αντικειμενου (μνημη). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "id(x)",
+    "keywords": [
+      "id",
+      "identity"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#id"
+  },
+  {
+    "name": "memoryview",
+    "category": "builtins",
+    "description": "δημιουργει memory view για buffers. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "memoryview(b'bytes')",
+    "keywords": [
+      "memoryview",
+      "buffer",
+      "bytes",
+      "memory"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#memoryview"
+  },
+  {
+    "name": "object",
+    "category": "builtins",
+    "description": "βασικη κλαση ολων των αντικειμενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "obj = object()",
+    "keywords": [
+      "object",
+      "base"
+    ],
+    "doc_url": "https://docs.python.org/3/library/functions.html#object"
+  },
+  {
+    "name": "staticmethod",
+    "category": "oop",
+    "description": "δημιουργει στατικη μεθοδο κλασης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@staticmethod\ndef μεθοδος():\n    pass",
+    "keywords": [
+      "staticmethod",
+      "static",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "classmethod",
+    "category": "oop",
+    "description": "δημιουργει μεθοδο κλασης (με cls). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@classmethod\ndef μεθοδος(cls):\n    pass",
+    "keywords": [
+      "classmethod",
+      "class",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "property",
+    "category": "oop",
+    "description": "δημιουργει property με getter/setter. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@property\ndef name(self):\n    return self._name",
+    "keywords": [
+      "property",
+      "getter",
+      "setter",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "super",
+    "category": "oop",
+    "description": "επιστρεφει proxy αντικειμενο για parent κλαση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "super().__init__()",
+    "keywords": [
+      "super",
+      "parent",
+      "inheritance"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "__str__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται απο str() για string αναπαρασταση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __str__(self):\n    return 'string'",
+    "keywords": [
+      "str",
+      "string",
+      "representation",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__repr__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται απο repr() για αναπαρασταση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __repr__(self):\n    return 'repr'",
+    "keywords": [
+      "repr",
+      "representation",
+      "string",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__len__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται απο len(). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __len__(self):\n    return 42",
+    "keywords": [
+      "len",
+      "length",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__getitem__",
+    "category": "magic",
+    "description": "μεθοδος για προσβαση με index/key. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __getitem__(self, key):\n    return self.data[key]",
+    "keywords": [
+      "getitem",
+      "index",
+      "key",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__setitem__",
+    "category": "magic",
+    "description": "μεθοδος για αναθεση με index/key. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __setitem__(self, key, value):\n    self.data[key] = value",
+    "keywords": [
+      "setitem",
+      "index",
+      "key",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__delitem__",
+    "category": "magic",
+    "description": "μεθοδος για διαγραφη με index/key. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __delitem__(self, key):\n    del self.data[key]",
+    "keywords": [
+      "delitem",
+      "delete",
+      "key",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__iter__",
+    "category": "magic",
+    "description": "μεθοδος που επιστρεφει iterator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __iter__(self):\n    return iter(self.data)",
+    "keywords": [
+      "iter",
+      "iterator",
+      "magic",
+      "loop"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__next__",
+    "category": "magic",
+    "description": "μεθοδος για επομενο στοιχειο σε iterator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __next__(self):\n    return next(self.data)",
+    "keywords": [
+      "next",
+      "iterator",
+      "magic",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__contains__",
+    "category": "magic",
+    "description": "μεθοδος για ελεγχο μελους (in). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __contains__(self, item):\n    return item in self.data",
+    "keywords": [
+      "contains",
+      "in",
+      "membership",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__call__",
+    "category": "magic",
+    "description": "μεθοδος για κληση αντικειμενου σαν συναρτηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __call__(self, *args):\n    print('Called')",
+    "keywords": [
+      "call",
+      "function",
+      "invoke",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__add__",
+    "category": "magic",
+    "description": "μεθοδος για + operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __add__(self, other):\n    return self.value + other.value",
+    "keywords": [
+      "add",
+      "operator",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__sub__",
+    "category": "magic",
+    "description": "μεθοδος για - operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __sub__(self, other):\n    return self.value - other.value",
+    "keywords": [
+      "sub",
+      "operator",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__mul__",
+    "category": "magic",
+    "description": "μεθοδος για * operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __mul__(self, other):\n    return self.value * other.value",
+    "keywords": [
+      "mul",
+      "operator",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__truediv__",
+    "category": "magic",
+    "description": "μεθοδος για / operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __truediv__(self, other):\n    return self.value / other.value",
+    "keywords": [
+      "truediv",
+      "division",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__floordiv__",
+    "category": "magic",
+    "description": "μεθοδος για // operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __floordiv__(self, other):\n    return self.value // other.value",
+    "keywords": [
+      "floordiv",
+      "division",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__mod__",
+    "category": "magic",
+    "description": "μεθοδος για % operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __mod__(self, other):\n    return self.value % other.value",
+    "keywords": [
+      "mod",
+      "modulo",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__pow__",
+    "category": "magic",
+    "description": "μεθοδος για ** operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __pow__(self, other):\n    return self.value ** other.value",
+    "keywords": [
+      "pow",
+      "power",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__eq__",
+    "category": "magic",
+    "description": "μεθοδος για == operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __eq__(self, other):\n    return self.value == other.value",
+    "keywords": [
+      "eq",
+      "equal",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__ne__",
+    "category": "magic",
+    "description": "μεθοδος για != operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __ne__(self, other):\n    return self.value != other.value",
+    "keywords": [
+      "ne",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__lt__",
+    "category": "magic",
+    "description": "μεθοδος για < operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __lt__(self, other):\n    return self.value < other.value",
+    "keywords": [
+      "lt",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__le__",
+    "category": "magic",
+    "description": "μεθοδος για <= operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __le__(self, other):\n    return self.value <= other.value",
+    "keywords": [
+      "le",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__gt__",
+    "category": "magic",
+    "description": "μεθοδος για > operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __gt__(self, other):\n    return self.value > other.value",
+    "keywords": [
+      "gt",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__ge__",
+    "category": "magic",
+    "description": "μεθοδος για >= operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __ge__(self, other):\n    return self.value >= other.value",
+    "keywords": [
+      "ge",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__and__",
+    "category": "magic",
+    "description": "μεθοδος για & operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __and__(self, other):\n    return self.value & other.value",
+    "keywords": [
+      "and",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__or__",
+    "category": "magic",
+    "description": "μεθοδος για | operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __or__(self, other):\n    return self.value | other.value",
+    "keywords": [
+      "or",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__xor__",
+    "category": "magic",
+    "description": "μεθοδος για ^ operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __xor__(self, other):\n    return self.value ^ other.value",
+    "keywords": [
+      "xor",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__invert__",
+    "category": "magic",
+    "description": "μεθοδος για ~ operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __invert__(self):\n    return ~self.value",
+    "keywords": [
+      "invert",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__lshift__",
+    "category": "magic",
+    "description": "μεθοδος για << operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __lshift__(self, other):\n    return self.value << other.value",
+    "keywords": [
+      "lshift",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__rshift__",
+    "category": "magic",
+    "description": "μεθοδος για >> operator. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __rshift__(self, other):\n    return self.value >> other.value",
+    "keywords": [
+      "rshift",
+      "bitwise",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__bool__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται απο bool(). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __bool__(self):\n    return bool(self.value)",
+    "keywords": [
+      "bool",
+      "boolean",
+      "truthy",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__enter__",
+    "category": "context",
+    "description": "μεθοδος που καλειται οταν μπαινει σε context manager. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __enter__(self):\n    return self.resource",
+    "keywords": [
+      "enter",
+      "context",
+      "manager",
+      "with"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__exit__",
+    "category": "context",
+    "description": "μεθοδος που καλειται οταν βγαινει απο context manager. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __exit__(self, exc_type, exc_val, exc_tb):\n    self.resource.close()",
+    "keywords": [
+      "exit",
+      "context",
+      "manager",
+      "with"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__getattr__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται οταν δεν βρισκεται attribute. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __getattr__(self, name):\n    return f'Missing {name}'",
+    "keywords": [
+      "getattr",
+      "attribute",
+      "missing",
+      "fallback"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__setattr__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται οταν γινεται αναθεση attribute. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __setattr__(self, name, value):\n    object.__setattr__(self, name, value)",
+    "keywords": [
+      "setattr",
+      "attribute",
+      "assignment",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__delattr__",
+    "category": "magic",
+    "description": "μεθοδος που καλειται οταν διαγραφεται attribute. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __delattr__(self, name):\n    object.__delattr__(self, name)",
+    "keywords": [
+      "delattr",
+      "attribute",
+      "delete",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__dir__",
+    "category": "magic",
+    "description": "μεθοδος που επιστρεφει λιστα με attributes. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __dir__(self):\n    return ['attr1', 'attr2']",
+    "keywords": [
+      "dir",
+      "attributes",
+      "list",
+      "magic"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__get__",
+    "category": "descriptor",
+    "description": "μεθοδος descriptor (για property-like attributes). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __get__(self, instance, owner):\n    return self.value",
+    "keywords": [
+      "get",
+      "descriptor",
+      "property",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__set__",
+    "category": "descriptor",
+    "description": "μεθοδος descriptor για αναθεση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __set__(self, instance, value):\n    self.value = value",
+    "keywords": [
+      "set",
+      "descriptor",
+      "property",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__delete__",
+    "category": "descriptor",
+    "description": "μεθοδος descriptor για διαγραφη. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def __delete__(self, instance):\n    del self.value",
+    "keywords": [
+      "delete",
+      "descriptor",
+      "property",
+      "attribute"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "__slots__",
+    "category": "oop",
+    "description": "περιοριζει τα attributes μιας κλασης για εξοικονομηση μνημης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "__slots__ = ['name', 'age']",
+    "keywords": [
+      "slots",
+      "memory",
+      "optimization",
+      "attributes"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/classes.html"
+  },
+  {
+    "name": "@property",
+    "category": "decorators",
+    "description": "decorator για δημιουργια property. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@property\ndef name(self):\n    return self._name",
+    "keywords": [
+      "property",
+      "decorator",
+      "getter",
+      "setter"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "@classmethod",
+    "category": "decorators",
+    "description": "decorator για δημιουργια class method. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@classmethod\ndef create(cls):\n    return cls()",
+    "keywords": [
+      "classmethod",
+      "decorator",
+      "class",
+      "method"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "@staticmethod",
+    "category": "decorators",
+    "description": "decorator για δημιουργια static method. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@staticmethod\ndef utility():\n    pass",
+    "keywords": [
+      "staticmethod",
+      "decorator",
+      "static",
+      "method"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "@abstractmethod",
+    "category": "decorators",
+    "description": "decorator για abstract μεθοδο (απο abc). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@abstractmethod\ndef must_implement(self):\n    pass",
+    "keywords": [
+      "abstractmethod",
+      "decorator",
+      "abstract",
+      "abc"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "@dataclass",
+    "category": "decorators",
+    "description": "decorator για αυτοματη δημιουργια κλασεων δεδομενων (python 3.7+). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "@dataclass\nclass Point:\n    x: int\n    y: int",
+    "keywords": [
+      "dataclass",
+      "decorator",
+      "data",
+      "class"
+    ],
+    "doc_url": "https://docs.python.org/3/"
+  },
+  {
+    "name": "math",
+    "category": "modules",
+    "description": "βιβλιοθηκη για μαθηματικες συναρτησεις. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import math\nmath.sqrt(16)",
+    "keywords": [
+      "math",
+      "mathematics",
+      "sqrt",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "random",
+    "category": "modules",
+    "description": "βιβλιοθηκη για τυχαιους αριθμους. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import random\nrandom.randint(1, 10)",
+    "keywords": [
+      "random",
+      "randint",
+      "choice",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "datetime",
+    "category": "modules",
+    "description": "βιβλιοθηκη για ημερομηνιες και ωρες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from datetime import datetime\ndatetime.now()",
+    "keywords": [
+      "datetime",
+      "date",
+      "time",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "os",
+    "category": "modules",
+    "description": "βιβλιοθηκη για αλληλεπιδραση με το λειτουργικο συστημα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import os\nos.listdir()",
+    "keywords": [
+      "os",
+      "files",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "sys",
+    "category": "modules",
+    "description": "βιβλιοθηκη για παραμετρους συστηματος. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import sys\nsys.argv",
+    "keywords": [
+      "sys",
+      "system",
+      "argv",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "json",
+    "category": "modules",
+    "description": "βιβλιοθηκη για διαχειριση json. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import json\njson.dumps({'key': 'value'})",
+    "keywords": [
+      "json",
+      "dumps",
+      "loads",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re",
+    "category": "modules",
+    "description": "βιβλιοθηκη για regular expressions. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\nre.search(r'pattern', 'text')",
+    "keywords": [
+      "re",
+      "regex",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "collections",
+    "category": "modules",
+    "description": "βιβλιοθηκη με ειδικες δομες δεδομενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from collections import defaultdict\nd = defaultdict(list)",
+    "keywords": [
+      "collections",
+      "defaultdict",
+      "counter",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "itertools",
+    "category": "modules",
+    "description": "βιβλιοθηκη για λειτουργιες iterators. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from itertools import product\nlist(product([1,2], ['a','b']))",
+    "keywords": [
+      "itertools",
+      "product",
+      "permutations",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "functools",
+    "category": "modules",
+    "description": "βιβλιοθηκη για λειτουργιες συναρτησεων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from functools import partial\nf = partial(func, arg)",
+    "keywords": [
+      "functools",
+      "partial",
+      "reduce",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "logging",
+    "category": "modules",
+    "description": "βιβλιοθηκη για καταγραφη μηνυματων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import logging\nlogging.warning('Warning')",
+    "keywords": [
+      "logging",
+      "log",
+      "debug",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "unittest",
+    "category": "modules",
+    "description": "βιβλιοθηκη για unit testing. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import unittest\nclass Test(unittest.TestCase):\n    def test(self):\n        self.assertEqual(1, 1)",
+    "keywords": [
+      "unittest",
+      "testing",
+      "test",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pytest",
+    "category": "modules",
+    "description": "δημοφιλες framework για testing (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "def test_answer():\n    assert func(3) == 5",
+    "keywords": [
+      "pytest",
+      "testing",
+      "test",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "numpy",
+    "category": "modules",
+    "description": "βιβλιοθηκη για επιστημονικους υπολογισμους (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import numpy as np\nnp.array([1, 2, 3])",
+    "keywords": [
+      "numpy",
+      "array",
+      "numerical",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pandas",
+    "category": "modules",
+    "description": "βιβλιοθηκη για αναλυση δεδομενων (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pandas as pd\npd.DataFrame({'col': [1, 2]})",
+    "keywords": [
+      "pandas",
+      "dataframe",
+      "data",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "matplotlib",
+    "category": "modules",
+    "description": "βιβλιοθηκη για γραφικες παραστασεις (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import matplotlib.pyplot as plt\nplt.plot([1, 2, 3])",
+    "keywords": [
+      "matplotlib",
+      "plot",
+      "graph",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "requests",
+    "category": "modules",
+    "description": "βιβλιοθηκη για http αιτηματα (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import requests\nrequests.get('https://example.com')",
+    "keywords": [
+      "requests",
+      "http",
+      "get",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "flask",
+    "category": "modules",
+    "description": "μικρο framework για web (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from flask import Flask\napp = Flask(__name__)",
+    "keywords": [
+      "flask",
+      "web",
+      "framework",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "django",
+    "category": "modules",
+    "description": "πληρες framework για web (εξωτερικο package). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from django.http import HttpResponse",
+    "keywords": [
+      "django",
+      "web",
+      "framework",
+      "package"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "asyncio",
+    "category": "modules",
+    "description": "βιβλιοθηκη για ασυγχρονο προγραμματισμο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import asyncio\nasync def main():\n    await asyncio.sleep(1)",
+    "keywords": [
+      "asyncio",
+      "async",
+      "await",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "threading",
+    "category": "modules",
+    "description": "βιβλιοθηκη για νηματα (threads). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import threading\nthread = threading.Thread(target=func)",
+    "keywords": [
+      "threading",
+      "thread",
+      "multithreading",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "multiprocessing",
+    "category": "modules",
+    "description": "βιβλιοθηκη για πολυδιεργασια (processes). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import multiprocessing\np = multiprocessing.Process(target=func)",
+    "keywords": [
+      "multiprocessing",
+      "process",
+      "parallel",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "subprocess",
+    "category": "modules",
+    "description": "βιβλιοθηκη για εκτελεση εξωτερικων εντολων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import subprocess\nsubprocess.run(['ls', '-l'])",
+    "keywords": [
+      "subprocess",
+      "process",
+      "command",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "socket",
+    "category": "modules",
+    "description": "βιβλιοθηκη για δικτυακη επικοινωνια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import socket\ns = socket.socket()",
+    "keywords": [
+      "socket",
+      "network",
+      "tcp",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "sqlite3",
+    "category": "modules",
+    "description": "βιβλιοθηκη για βασεις δεδομενων sqlite. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import sqlite3\nconn = sqlite3.connect('db.sqlite')",
+    "keywords": [
+      "sqlite3",
+      "database",
+      "sql",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pickle",
+    "category": "modules",
+    "description": "βιβλιοθηκη για σειριοποιηση αντικειμενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pickle\npickle.dumps(obj)",
+    "keywords": [
+      "pickle",
+      "serialization",
+      "object",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "hashlib",
+    "category": "modules",
+    "description": "βιβλιοθηκη για hash αλγοριθμους. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import hashlib\nhashlib.sha256(b'data').hexdigest()",
+    "keywords": [
+      "hashlib",
+      "hash",
+      "sha256",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "zlib",
+    "category": "modules",
+    "description": "βιβλιοθηκη για συμπιεση δεδομενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import zlib\nzlib.compress(b'data')",
+    "keywords": [
+      "zlib",
+      "compression",
+      "gzip",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "argparse",
+    "category": "modules",
+    "description": "βιβλιοθηκη για αναλυση ορισματων γραμμης εντολων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import argparse\nparser = argparse.ArgumentParser()",
+    "keywords": [
+      "argparse",
+      "arguments",
+      "cli",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "typing",
+    "category": "modules",
+    "description": "βιβλιοθηκη για type hints. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from typing import List\ndef func() -> List[int]:\n    return [1, 2, 3]",
+    "keywords": [
+      "typing",
+      "type",
+      "hints",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "abc",
+    "category": "modules",
+    "description": "βιβλιοθηκη για abstract base classes. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from abc import ABC, abstractmethod\nclass Base(ABC):\n    @abstractmethod\n    def method(self): pass",
+    "keywords": [
+      "abc",
+      "abstract",
+      "class",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "copy",
+    "category": "modules",
+    "description": "βιβλιοθηκη για αντιγραφη αντικειμενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import copy\ncopy.deepcopy(obj)",
+    "keywords": [
+      "copy",
+      "deepcopy",
+      "object",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pprint",
+    "category": "modules",
+    "description": "βιβλιοθηκη για \"pretty printing\". Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from pprint import pprint\npprint({'a': 1, 'b': 2})",
+    "keywords": [
+      "pprint",
+      "pretty",
+      "print",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "timeit",
+    "category": "modules",
+    "description": "βιβλιοθηκη για μετρηση χρονου εκτελεσης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import timeit\ntimeit.timeit('\"-\".join(str(n) for n in range(100))', number=10000)",
+    "keywords": [
+      "timeit",
+      "time",
+      "measure",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "traceback",
+    "category": "modules",
+    "description": "βιβλιοθηκη για διαχειριση tracebacks. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import traceback\ntraceback.print_exc()",
+    "keywords": [
+      "traceback",
+      "error",
+      "exception",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "weakref",
+    "category": "modules",
+    "description": "βιβλιοθηκη για weak references. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import weakref\nref = weakref.ref(obj)",
+    "keywords": [
+      "weakref",
+      "reference",
+      "memory",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "enum",
+    "category": "modules",
+    "description": "βιβλιοθηκη για enumerations. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from enum import Enum\nclass Color(Enum):\n    RED = 1\n    GREEN = 2",
+    "keywords": [
+      "enum",
+      "enumeration",
+      "constants",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pathlib",
+    "category": "modules",
+    "description": "βιβλιοθηκη για διαχειριση διαδρομων αρχειων (python 3.4+). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from pathlib import Path\np = Path('/path/to/file')",
+    "keywords": [
+      "pathlib",
+      "path",
+      "file",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "contextlib",
+    "category": "modules",
+    "description": "βιβλιοθηκη για context managers. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from contextlib import contextmanager\n@contextmanager\ndef manager():\n    yield resource",
+    "keywords": [
+      "contextlib",
+      "context",
+      "manager",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "dataclasses",
+    "category": "modules",
+    "description": "βιβλιοθηκη για dataclasses (python 3.7+). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from dataclasses import dataclass\n@dataclass\nclass Point:\n    x: int\n    y: int",
+    "keywords": [
+      "dataclasses",
+      "dataclass",
+      "data",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "functools.lru_cache",
+    "category": "modules",
+    "description": "decorator για caching αποτελεσματων συναρτησεων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from functools import lru_cache\n@lru_cache(maxsize=32)\ndef fib(n):\n    return fib(n-1) + fib(n-2) if n > 1 else n",
+    "keywords": [
+      "lru_cache",
+      "cache",
+      "memoization",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "functools.wraps",
+    "category": "modules",
+    "description": "decorator για διατηρηση metadata σε wrapped συναρτησεις. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from functools import wraps\ndef decorator(f):\n    @wraps(f)\n    def wrapper(*args):\n        return f(*args)\n    return wrapper",
+    "keywords": [
+      "wraps",
+      "decorator",
+      "metadata",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "itertools.chain",
+    "category": "modules",
+    "description": "συνδυαζει πολλα iterables σε ενα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from itertools import chain\nlist(chain([1, 2], ['a', 'b']))",
+    "keywords": [
+      "chain",
+      "itertools",
+      "combine",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "itertools.islice",
+    "category": "modules",
+    "description": "επιστρεφει iterator που παραγει επιλεγμενα στοιχεια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from itertools import islice\nlist(islice('ABCDEFG', 2, None, 2))",
+    "keywords": [
+      "islice",
+      "itertools",
+      "slice",
+      "iterable"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "collections.defaultdict",
+    "category": "modules",
+    "description": "λεξικο με προεπιλεγμενη τιμη για κλειδια που λειπουν. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from collections import defaultdict\nd = defaultdict(list)\nd['key'].append(1)",
+    "keywords": [
+      "defaultdict",
+      "collections",
+      "dictionary",
+      "default"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "collections.Counter",
+    "category": "modules",
+    "description": "λεξικο για μετρηση στοιχειων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from collections import Counter\nc = Counter('abracadabra')\nc.most_common(3)",
+    "keywords": [
+      "counter",
+      "collections",
+      "count",
+      "elements"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "collections.namedtuple",
+    "category": "modules",
+    "description": "δημιουργει tuple με ονομασμενα πεδια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from collections import namedtuple\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(11, y=22)",
+    "keywords": [
+      "namedtuple",
+      "collections",
+      "tuple",
+      "named"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "collections.deque",
+    "category": "modules",
+    "description": "διπλη ουρα (double-ended queue) για γρηγορες λειτουργιες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from collections import deque\nd = deque([1, 2, 3])\nd.appendleft(0)",
+    "keywords": [
+      "deque",
+      "collections",
+      "queue"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "math.isclose",
+    "category": "modules",
+    "description": "ελεγχει αν δυο float ειναι \"κοντα\" (με ανοχη). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from math import isclose\nisclose(1.0, 1.0000001)",
+    "keywords": [
+      "isclose",
+      "math",
+      "float",
+      "comparison"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "random.choices",
+    "category": "modules",
+    "description": "επιστρεφει λιστα με τυχαια επιλεγμενα στοιχεια (με επαναθεση). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from random import choices\nchoices(['red', 'black', 'green'], k=5)",
+    "keywords": [
+      "choices",
+      "random",
+      "sample",
+      "selection"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "random.sample",
+    "category": "modules",
+    "description": "επιστρεφει λιστα με τυχαια επιλεγμενα μοναδικα στοιχεια. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from random import sample\nsample(['red', 'black', 'green'], k=2)",
+    "keywords": [
+      "sample",
+      "random",
+      "unique",
+      "selection"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "datetime.timedelta",
+    "category": "modules",
+    "description": "διαφορα μεταξυ δυο ημερομηνιων/ωρων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from datetime import timedelta\ntimedelta(days=5)",
+    "keywords": [
+      "timedelta",
+      "datetime",
+      "difference",
+      "time"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "os.path",
+    "category": "modules",
+    "description": "υπομοναδα για διαχειριση διαδρομων αρχειων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import os.path\nos.path.join('folder', 'file.txt')",
+    "keywords": [
+      "path",
+      "file",
+      "directory"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "os.walk",
+    "category": "modules",
+    "description": "γεννητρια για αναδρομικη διασχιση καταλογων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import os\nfor root, dirs, files in os.walk('.'):\n    pass",
+    "keywords": [
+      "directory",
+      "tree",
+      "traverse"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "sys.path",
+    "category": "modules",
+    "description": "λιστα με διαδρομες για εισαγωγη modules. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import sys\nsys.path.append('/custom/path')",
+    "keywords": [
+      "path",
+      "import",
+      "module"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "json.dumps",
+    "category": "modules",
+    "description": "μετατρεπει python αντικειμενο σε json string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import json\njson.dumps({'key': 'value'})",
+    "keywords": [
+      "dumps",
+      "json",
+      "serialize",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "json.loads",
+    "category": "modules",
+    "description": "μετατρεπει json string σε python αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import json\njson.loads('{\"key\": \"value\"}')",
+    "keywords": [
+      "loads",
+      "json",
+      "deserialize",
+      "object"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re.compile",
+    "category": "modules",
+    "description": "κατασκευαζει regex pattern για επαναχρηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\npattern = re.compile(r'\\d+')",
+    "keywords": [
+      "compile",
+      "re",
+      "regex",
+      "pattern"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re.search",
+    "category": "modules",
+    "description": "αναζητα pattern σε string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\nre.search(r'\\d+', 'abc123')",
+    "keywords": [
+      "search",
+      "re",
+      "regex",
+      "pattern"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re.match",
+    "category": "modules",
+    "description": "ελεγχει αν pattern ταιριαζει στην αρχη string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\nre.match(r'\\d+', '123abc')",
+    "keywords": [
+      "match",
+      "re",
+      "regex",
+      "pattern"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re.findall",
+    "category": "modules",
+    "description": "επιστρεφει ολα τα matches ενος pattern σε string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\nre.findall(r'\\d+', 'a1b22c333')",
+    "keywords": [
+      "findall",
+      "re",
+      "regex",
+      "pattern"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "re.sub",
+    "category": "modules",
+    "description": "αντικαθιστα pattern σε string. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import re\nre.sub(r'\\d+', 'X', 'a1b22c333')",
+    "keywords": [
+      "sub",
+      "re",
+      "regex",
+      "replace"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "logging.basicConfig",
+    "category": "modules",
+    "description": "βασικη ρυθμιση του logging system. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import logging\nlogging.basicConfig(level=logging.INFO)",
+    "keywords": [
+      "basicconfig",
+      "logging",
+      "setup",
+      "log"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "unittest.TestCase",
+    "category": "modules",
+    "description": "βασικη κλαση για unit tests. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import unittest\nclass Test(unittest.TestCase):\n    def test(self):\n        self.assertEqual(1, 1)",
+    "keywords": [
+      "testcase",
+      "unittest",
+      "test",
+      "class"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "unittest.mock",
+    "category": "modules",
+    "description": "βιβλιοθηκη για mock αντικειμενα σε tests. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from unittest.mock import Mock\nmock = Mock(return_value=42)",
+    "keywords": [
+      "mock",
+      "unittest",
+      "testing",
+      "fake"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pytest.fixture",
+    "category": "modules",
+    "description": "decorator για fixtures στο pytest. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pytest\n@pytest.fixture\ndef data():\n    return [1, 2, 3]",
+    "keywords": [
+      "fixture",
+      "pytest",
+      "test",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "numpy.array",
+    "category": "modules",
+    "description": "δημιουργει numpy array. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import numpy as np\nnp.array([1, 2, 3])",
+    "keywords": [
+      "array",
+      "numpy",
+      "ndarray",
+      "create"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "numpy.linspace",
+    "category": "modules",
+    "description": "δημιουργει ισαπεχοντα σημεια σε διαστημα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import numpy as np\nnp.linspace(0, 10, num=5)",
+    "keywords": [
+      "linspace",
+      "numpy",
+      "range",
+      "spaced"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "numpy.random",
+    "category": "modules",
+    "description": "υπομοναδα για τυχαιους αριθμους. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import numpy as np\nnp.random.rand(3, 2)",
+    "keywords": [
+      "random",
+      "numpy",
+      "rand",
+      "numbers"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pandas.DataFrame",
+    "category": "modules",
+    "description": "δομη δεδομενων 2d με ετικετες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pandas as pd\npd.DataFrame({'col': [1, 2]})",
+    "keywords": [
+      "dataframe",
+      "pandas",
+      "data",
+      "structure"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pandas.Series",
+    "category": "modules",
+    "description": "δομη δεδομενων 1d με ετικετες. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pandas as pd\npd.Series([1, 2, 3], index=['a', 'b', 'c'])",
+    "keywords": [
+      "series",
+      "pandas",
+      "data",
+      "structure"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pandas.read_csv",
+    "category": "modules",
+    "description": "διαβαζει δεδομενα απο csv αρχειο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pandas as pd\npd.read_csv('data.csv')",
+    "keywords": [
+      "read_csv",
+      "pandas",
+      "csv",
+      "file"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "matplotlib.pyplot",
+    "category": "modules",
+    "description": "interface για δημιουργια γραφηματων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import matplotlib.pyplot as plt\nplt.plot([1, 2, 3])\nplt.show()",
+    "keywords": [
+      "pyplot",
+      "matplotlib",
+      "plot",
+      "graph"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "requests.get",
+    "category": "modules",
+    "description": "κανει http get αιτηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import requests\nrequests.get('https://example.com')",
+    "keywords": [
+      "get",
+      "requests",
+      "http",
+      "request"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "requests.post",
+    "category": "modules",
+    "description": "κανει http post αιτηση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import requests\nrequests.post('https://example.com', data={'key': 'value'})",
+    "keywords": [
+      "post",
+      "requests",
+      "http",
+      "request"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "flask.Flask",
+    "category": "modules",
+    "description": "κλαση για δημιουργια flask εφαρμογης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from flask import Flask\napp = Flask(__name__)",
+    "keywords": [
+      "flask",
+      "flask",
+      "web",
+      "app"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "flask.request",
+    "category": "modules",
+    "description": "αντικειμενο για προσβαση σε δεδομενα αιτηματος. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from flask import request\nrequest.args.get('key')",
+    "keywords": [
+      "request",
+      "flask",
+      "http",
+      "data"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "django.http",
+    "category": "modules",
+    "description": "μοναδα για http αντικειμενα στο django. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from django.http import HttpResponse\nreturn HttpResponse('Hello')",
+    "keywords": [
+      "http",
+      "django",
+      "response",
+      "request"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "django.urls",
+    "category": "modules",
+    "description": "μοναδα για διαχειριση urls στο django. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from django.urls import path\npath('route/', view)",
+    "keywords": [
+      "urls",
+      "django",
+      "path",
+      "route"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "asyncio.run",
+    "category": "modules",
+    "description": "τρεχει ασυγχρονη συναρτηση (python 3.7+). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import asyncio\nasyncio.run(main())",
+    "keywords": [
+      "run",
+      "asyncio",
+      "async",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "asyncio.create_task",
+    "category": "modules",
+    "description": "δημιουργει task για ασυγχρονη εκτελεση. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import asyncio\ntask = asyncio.create_task(coro())",
+    "keywords": [
+      "create_task",
+      "asyncio",
+      "task",
+      "coroutine"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "threading.Thread",
+    "category": "modules",
+    "description": "κλαση για δημιουργια νηματος. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import threading\nthread = threading.Thread(target=func)\nthread.start()",
+    "keywords": [
+      "thread",
+      "threading",
+      "thread",
+      "parallel"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "multiprocessing.Process",
+    "category": "modules",
+    "description": "κλαση για δημιουργια διεργασιας. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import multiprocessing\np = multiprocessing.Process(target=func)\np.start()",
+    "keywords": [
+      "process",
+      "multiprocessing",
+      "process",
+      "parallel"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "subprocess.run",
+    "category": "modules",
+    "description": "τρεχει εντολη και περιμενει να ολοκληρωθει (python 3.5+). Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import subprocess\nsubprocess.run(['ls', '-l'])",
+    "keywords": [
+      "run",
+      "subprocess",
+      "command",
+      "execute"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "socket.socket",
+    "category": "modules",
+    "description": "κλαση για δημιουργια socket. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import socket\ns = socket.socket()",
+    "keywords": [
+      "socket",
+      "network",
+      "tcp",
+      "udp"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "sqlite3.connect",
+    "category": "modules",
+    "description": "συνδεεται με sqlite βαση δεδομενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import sqlite3\nconn = sqlite3.connect('db.sqlite')",
+    "keywords": [
+      "connect",
+      "sqlite3",
+      "database",
+      "db"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pickle.dumps",
+    "category": "modules",
+    "description": "σειριοποιει αντικειμενο σε bytes. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pickle\npickle.dumps(obj)",
+    "keywords": [
+      "dumps",
+      "pickle",
+      "serialize",
+      "object"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pickle.loads",
+    "category": "modules",
+    "description": "αποσειριοποιει bytes σε αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import pickle\npickle.loads(data)",
+    "keywords": [
+      "loads",
+      "pickle",
+      "deserialize",
+      "object"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "hashlib.sha256",
+    "category": "modules",
+    "description": "δημιουργει sha-256 hash αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import hashlib\nhashlib.sha256(b'data').hexdigest()",
+    "keywords": [
+      "sha256",
+      "hashlib",
+      "hash",
+      "digest"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "zlib.compress",
+    "category": "modules",
+    "description": "συμπιεζει δεδομενα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import zlib\nzlib.compress(b'data')",
+    "keywords": [
+      "compress",
+      "zlib",
+      "compression",
+      "data"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "argparse.ArgumentParser",
+    "category": "modules",
+    "description": "κλαση για αναλυση ορισματων γραμμης εντολων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import argparse\nparser = argparse.ArgumentParser()",
+    "keywords": [
+      "argumentparser",
+      "argparse",
+      "arguments",
+      "cli"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "typing.List",
+    "category": "modules",
+    "description": "type hint για λιστα με συγκεκριμενο τυπο στοιχειων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from typing import List\ndef func() -> List[int]:\n    return [1, 2, 3]",
+    "keywords": [
+      "list",
+      "typing",
+      "type",
+      "hint"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "typing.Dict",
+    "category": "modules",
+    "description": "type hint για λεξικο με συγκεκριμενους τυπους κλειδιων/τιμων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from typing import Dict\ndef func() -> Dict[str, int]:\n    return {'a': 1}",
+    "keywords": [
+      "dict",
+      "typing",
+      "type",
+      "hint"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "typing.Optional",
+    "category": "modules",
+    "description": "type hint για τιμη που μπορει να ειναι none. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from typing import Optional\ndef func(x: Optional[int]) -> Optional[int]:\n    return x",
+    "keywords": [
+      "optional",
+      "typing",
+      "type",
+      "hint"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "typing.Union",
+    "category": "modules",
+    "description": "type hint για πολλαπλους πιθανους τυπους. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from typing import Union\ndef func(x: Union[int, str]) -> Union[int, str]:\n    return x",
+    "keywords": [
+      "union",
+      "typing",
+      "type",
+      "hint"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "abc.ABC",
+    "category": "modules",
+    "description": "abstract base class για δημιουργια abstract κλασεων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from abc import ABC, abstractmethod\nclass Base(ABC):\n    @abstractmethod\n    def method(self): pass",
+    "keywords": [
+      "abc",
+      "abc",
+      "abstract",
+      "class"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "copy.deepcopy",
+    "category": "modules",
+    "description": "δημιουργει βαθια (recursive) αντιγραφη αντικειμενου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import copy\ncopy.deepcopy(obj)",
+    "keywords": [
+      "deepcopy",
+      "copy",
+      "object",
+      "recursive"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pprint.pprint",
+    "category": "modules",
+    "description": "pretty-print αντικειμενου. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from pprint import pprint\npprint({'a': 1, 'b': 2})",
+    "keywords": [
+      "pprint",
+      "pretty",
+      "print",
+      "format"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "timeit.timeit",
+    "category": "modules",
+    "description": "μετραει χρονο εκτελεσης κωδικα. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import timeit\ntimeit.timeit(",
+    "keywords": [
+      "timeit",
+      "time",
+      "measure",
+      "execution"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "traceback.print_exc",
+    "category": "modules",
+    "description": "εκτυπωνει το traceback μιας εξαιρεσης. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import traceback\ntry:\n    1/0\nexcept:\n    traceback.print_exc()",
+    "keywords": [
+      "print_exc",
+      "traceback",
+      "exception",
+      "error"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "weakref.ref",
+    "category": "modules",
+    "description": "δημιουργει weak reference σε αντικειμενο. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "import weakref\nref = weakref.ref(obj)",
+    "keywords": [
+      "ref",
+      "weakref",
+      "reference",
+      "object"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "enum.Enum",
+    "category": "modules",
+    "description": "βασικη κλαση για δημιουργια enumerations. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from enum import Enum\nclass Color(Enum):\n    RED = 1\n    GREEN = 2",
+    "keywords": [
+      "enum",
+      "enum",
+      "enumeration",
+      "constants"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "pathlib.Path",
+    "category": "modules",
+    "description": "κλαση για διαχειριση διαδρομων αρχειων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from pathlib import Path\np = Path('/path/to/file')",
+    "keywords": [
+      "path",
+      "pathlib",
+      "path",
+      "file"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "contextlib.contextmanager",
+    "category": "modules",
+    "description": "decorator για ευκολη δημιουργια context managers. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from contextlib import contextmanager\n@contextmanager\ndef manager():\n    yield resource",
+    "keywords": [
+      "contextmanager",
+      "contextlib",
+      "context",
+      "manager"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "dataclasses.dataclass",
+    "category": "modules",
+    "description": "decorator για αυτοματη δημιουργια κλασεων δεδομενων. Με απλα λογια, αυτο το χρησιμοποιουμε για να κανουμε τη δουλεια μας πιο ευκολα στον κωδικα.",
+    "example": "from dataclasses import dataclass\n@dataclass\nclass Point:\n    x: int\n    y: int",
+    "keywords": [
+      "dataclass",
+      "dataclasses",
+      "data",
+      "class"
+    ],
+    "doc_url": "https://docs.python.org/3/tutorial/modules.html"
+  },
+  {
+    "name": "tkinter",
+    "category": "modules",
+    "description": "Η tkinter είναι η ενσωματωμένη βιβλιοθήκη της Python για τη δημιουργία GUI εφαρμογών. Παρέχει widgets όπως κουμπιά, πλαίσια κειμένου, ετικέτες και άλλα.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
+    "keywords": [
+      "tkinter",
+      "gui",
+      "widgets",
+      "window"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html"
+  },
+  {
+    "name": "Button",
+    "category": "tkinter",
+    "description": "Το widget Button δημιουργεί ένα κουμπί που μπορεί να πατηθεί για να εκτελέσει μια ενέργεια.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nbutton = tk.Button(root, text='Click Me', command=lambda: print('Clicked!'))\nbutton.pack()\nroot.mainloop()",
+    "keywords": [
+      "button",
+      "widget",
+      "tkinter",
+      "click"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#button"
+  },
+  {
+    "name": "Label",
+    "category": "tkinter",
+    "description": "Το widget Label χρησιμοποιείται για την εμφάνιση κειμένου ή εικόνων σε ένα παράθυρο.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nlabel = tk.Label(root, text='Hello, World!')\nlabel.pack()\nroot.mainloop()",
+    "keywords": [
+      "label",
+      "widget",
+      "tkinter",
+      "text"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#label"
+  },
+  {
+    "name": "Entry",
+    "category": "tkinter",
+    "description": "Το widget Entry δημιουργεί ένα πεδίο εισαγωγής κειμένου.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nentry = tk.Entry(root)\nentry.pack()\nroot.mainloop()",
+    "keywords": [
+      "entry",
+      "input",
+      "widget",
+      "tkinter"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#entry"
+  },
+  {
+    "name": "Canvas",
+    "category": "tkinter",
+    "description": "Το widget Canvas χρησιμοποιείται για τη σχεδίαση σχημάτων, γραμμών και εικόνων.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\ncanvas = tk.Canvas(root, width=200, height=100)\ncanvas.create_line(0, 0, 200, 100)\ncanvas.pack()\nroot.mainloop()",
+    "keywords": [
+      "canvas",
+      "draw",
+      "widget",
+      "tkinter"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#canvas"
+  },
+  {
+    "name": "Tk",
+    "category": "tkinter",
+    "description": "Η κλάση Tk δημιουργεί το κύριο παράθυρο της εφαρμογής.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
+    "keywords": [
+      "tk",
+      "window",
+      "tkinter",
+      "main"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#tk"
+  },
+  {
+    "name": "mainloop",
+    "category": "tkinter",
+    "description": "Η μέθοδος mainloop ξεκινά τον βρόχο εκδηλώσεων της εφαρμογής tkinter.",
+    "example": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()",
+    "keywords": [
+      "mainloop",
+      "event",
+      "tkinter",
+      "loop"
+    ],
+    "doc_url": "https://docs.python.org/3/library/tkinter.html#mainloop"
+  }
+]
